@@ -1,0 +1,11 @@
+node_modules/
+output/
+*.log
+*.zip
+__pycache__/
+.env
+.env.*
+.codex/
+library/.write.lock
+library/.import-*/
+library/catalog-*.tmp

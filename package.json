@@ -1,0 +1,14 @@
+{
+  "name": "rimworld-art-mcp",
+  "version": "1.0.0",
+  "description": "自带精选原版参考图的 RimWorld 贴图检索、风格说明和本地描边 MCP。",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node src/server.js" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.29.0",
+    "sharp": "0.34.5",
+    "zod": "4.4.3"
+  }
+}

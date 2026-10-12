@@ -1,0 +1,5831 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "count": 123,
+  "items": [
+    {
+      "id": "weapon.assaultrifle",
+      "groupId": "weapon.assaultrifle",
+      "name": "突击步枪",
+      "aliases": [
+        "自动步枪",
+        "assault rifle"
+      ],
+      "category": "weapon",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/weapon/AssaultRifle.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Gun_AssaultRifle",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Weapons/RangedIndustrial.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Weapons/RangedIndustrial.xml",
+        "texturePath": "Things/Item/Equipment/WeaponRanged/AssaultRifle",
+        "graphicClass": "Graphic_Single",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "以同类参考缩放到最终显示尺寸后的轮廓为准；细枪管、扳机孔和握把不能被加粗堵住。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        0,
+        49,
+        128,
+        98
+      ],
+      "transparentFraction": 0.8144,
+      "paletteSamples": [
+        "#303030",
+        "#101010",
+        "#707070",
+        "#505050",
+        "#909090"
+      ],
+      "sha256": "c37402fff245f4f999c96a82e34b12fdeaa224217aff8e1912113edb662b0841"
+    },
+    {
+      "id": "weapon.autopistol",
+      "groupId": "weapon.autopistol",
+      "name": "自动手枪",
+      "aliases": [
+        "手枪",
+        "pistol"
+      ],
+      "category": "weapon",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/weapon/Autopistol.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Gun_Autopistol",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Weapons/RangedIndustrial.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Weapons/RangedIndustrial.xml",
+        "texturePath": "Things/Item/Equipment/WeaponRanged/Autopistol",
+        "graphicClass": "Graphic_Single",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "以同类参考缩放到最终显示尺寸后的轮廓为准；细枪管、扳机孔和握把不能被加粗堵住。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        35,
+        51,
+        100,
+        94
+      ],
+      "transparentFraction": 0.902,
+      "paletteSamples": [
+        "#101010",
+        "#303030",
+        "#905050",
+        "#707070",
+        "#909090"
+      ],
+      "sha256": "6fdd7fd3f883a724a701152a6a93292ff7dc3bc1ee699545a29ed2a15abf0e99"
+    },
+    {
+      "id": "weapon.revolver",
+      "groupId": "weapon.revolver",
+      "name": "左轮手枪",
+      "aliases": [
+        "左轮",
+        "revolver"
+      ],
+      "category": "weapon",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/weapon/Revolver.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Gun_Revolver",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Weapons/RangedIndustrial.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Weapons/RangedIndustrial.xml",
+        "texturePath": "Things/Item/Equipment/WeaponRanged/Revolver",
+        "graphicClass": "Graphic_Single",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "以同类参考缩放到最终显示尺寸后的轮廓为准；细枪管、扳机孔和握把不能被加粗堵住。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        19,
+        42,
+        105,
+        93
+      ],
+      "transparentFraction": 0.8649,
+      "paletteSamples": [
+        "#101010",
+        "#707070",
+        "#909090",
+        "#505050",
+        "#905030"
+      ],
+      "sha256": "8a43268944d10868e7133b020d96e25009201a0ec346019f9c08c3bed08808da"
+    },
+    {
+      "id": "weapon.machinepistol",
+      "groupId": "weapon.machinepistol",
+      "name": "冲锋手枪",
+      "aliases": [
+        "冲锋枪",
+        "machine pistol"
+      ],
+      "category": "weapon",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/weapon/MachinePistol.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Gun_MachinePistol",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Weapons/RangedIndustrial.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Weapons/RangedIndustrial.xml",
+        "texturePath": "Things/Item/Equipment/WeaponRanged/MachinePistol",
+        "graphicClass": "Graphic_Single",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "以同类参考缩放到最终显示尺寸后的轮廓为准；细枪管、扳机孔和握把不能被加粗堵住。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        27,
+        51,
+        108,
+        96
+      ],
+      "transparentFraction": 0.86,
+      "paletteSamples": [
+        "#707070",
+        "#101010",
+        "#909090",
+        "#505050",
+        "#303030"
+      ],
+      "sha256": "7589d4ed7304144c58fd812964e3a96338a29a86163f9e3a1e5ad8fa1a7ac01f"
+    },
+    {
+      "id": "weapon.boltactionrifle",
+      "groupId": "weapon.boltactionrifle",
+      "name": "栓动步枪",
+      "aliases": [
+        "步枪",
+        "bolt action rifle"
+      ],
+      "category": "weapon",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/weapon/BoltActionRifle.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Gun_BoltActionRifle",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Weapons/RangedIndustrial.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Weapons/RangedIndustrial.xml",
+        "texturePath": "Things/Item/Equipment/WeaponRanged/BoltActionRifle",
+        "graphicClass": "Graphic_Single",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "以同类参考缩放到最终显示尺寸后的轮廓为准；细枪管、扳机孔和握把不能被加粗堵住。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        0,
+        55,
+        128,
+        89
+      ],
+      "transparentFraction": 0.8666,
+      "paletteSamples": [
+        "#101010",
+        "#905050",
+        "#705030",
+        "#503030",
+        "#703030"
+      ],
+      "sha256": "18403405cd98290cf262aee769bf7bbd77e9273588d35a1e9b56f42da35cd853"
+    },
+    {
+      "id": "weapon.sniperrifle",
+      "groupId": "weapon.sniperrifle",
+      "name": "狙击步枪",
+      "aliases": [
+        "狙击枪",
+        "sniper rifle"
+      ],
+      "category": "weapon",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/weapon/SniperRifle.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Gun_SniperRifle",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Weapons/RangedIndustrial.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Weapons/RangedIndustrial.xml",
+        "texturePath": "Things/Item/Equipment/WeaponRanged/SniperRifle",
+        "graphicClass": "Graphic_Single",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "以同类参考缩放到最终显示尺寸后的轮廓为准；细枪管、扳机孔和握把不能被加粗堵住。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        0,
+        51,
+        127,
+        87
+      ],
+      "transparentFraction": 0.8604,
+      "paletteSamples": [
+        "#101010",
+        "#303030",
+        "#707070",
+        "#505050",
+        "#909090"
+      ],
+      "sha256": "17cdc3a014ecd130634b2cde892552be73f70c3ab1267dcf154e0390a9ce0861"
+    },
+    {
+      "id": "weapon.shotgun",
+      "groupId": "weapon.shotgun",
+      "name": "泵动霰弹枪",
+      "aliases": [
+        "散弹枪",
+        "shotgun"
+      ],
+      "category": "weapon",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/weapon/Shotgun.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Gun_PumpShotgun",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Weapons/RangedIndustrial.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Weapons/RangedIndustrial.xml",
+        "texturePath": "Things/Item/Equipment/WeaponRanged/Shotgun",
+        "graphicClass": "Graphic_Single",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "以同类参考缩放到最终显示尺寸后的轮廓为准；细枪管、扳机孔和握把不能被加粗堵住。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        0,
+        55,
+        127,
+        90
+      ],
+      "transparentFraction": 0.8582,
+      "paletteSamples": [
+        "#101010",
+        "#705030",
+        "#905050",
+        "#707070",
+        "#303030"
+      ],
+      "sha256": "838ea6fdeea32052058c00c2ac8d0c8d2d9ea09a90aa116af19eb4666b5cf694"
+    },
+    {
+      "id": "weapon.chainshotgun",
+      "groupId": "weapon.chainshotgun",
+      "name": "连发霰弹枪",
+      "aliases": [
+        "霰弹枪",
+        "chain shotgun"
+      ],
+      "category": "weapon",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/weapon/ChainShotgun.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Gun_ChainShotgun",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Weapons/RangedIndustrial.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Weapons/RangedIndustrial.xml",
+        "texturePath": "Things/Item/Equipment/WeaponRanged/ChainShotgun",
+        "graphicClass": "Graphic_Single",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "以同类参考缩放到最终显示尺寸后的轮廓为准；细枪管、扳机孔和握把不能被加粗堵住。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        1,
+        48,
+        126,
+        93
+      ],
+      "transparentFraction": 0.8058,
+      "paletteSamples": [
+        "#101010",
+        "#303030",
+        "#505050",
+        "#707070",
+        "#909090"
+      ],
+      "sha256": "42fa10ff727518aa73e0b4a7554e3037a89932958ecc6064f8b6f1b8c7ea281d"
+    },
+    {
+      "id": "weapon.chargerifle",
+      "groupId": "weapon.chargerifle",
+      "name": "电荷步枪",
+      "aliases": [
+        "充能步枪",
+        "科幻步枪",
+        "charge rifle"
+      ],
+      "category": "weapon",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/weapon/ChargeRifle.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Gun_ChargeRifle",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Weapons/RangedSpacer.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Weapons/RangedSpacer.xml",
+        "texturePath": "Things/Item/Equipment/WeaponRanged/ChargeRifle",
+        "graphicClass": "Graphic_Single",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "以同类参考缩放到最终显示尺寸后的轮廓为准；细枪管、扳机孔和握把不能被加粗堵住。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        9,
+        49,
+        122,
+        89
+      ],
+      "transparentFraction": 0.8372,
+      "paletteSamples": [
+        "#101010",
+        "#707070",
+        "#303030",
+        "#909090",
+        "#505050"
+      ],
+      "sha256": "c34290fa1a3a5e169edec48ab2f15c1b935de8893bbfd219ff69bbaf5fc20230"
+    },
+    {
+      "id": "weapon.longsword",
+      "groupId": "weapon.longsword",
+      "name": "长剑",
+      "aliases": [
+        "剑",
+        "longsword"
+      ],
+      "category": "weapon",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/weapon/Longsword.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "MeleeWeapon_LongSword",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Weapons/MeleeMedieval.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Weapons/MeleeMedieval.xml",
+        "texturePath": "Things/Item/Equipment/WeaponMelee/LongSword",
+        "graphicClass": "Graphic_Single",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "以同类参考缩放到最终显示尺寸后的轮廓为准；细枪管、扳机孔和握把不能被加粗堵住。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        2,
+        46,
+        123,
+        75
+      ],
+      "transparentFraction": 0.8719,
+      "paletteSamples": [
+        "#101010",
+        "#f0f0f0",
+        "#d0d0d0",
+        "#707070",
+        "#d0f0d0"
+      ],
+      "sha256": "c09c4636df8270b8794d9eea153e41e0b93991bd9919649c86428fac2fcd745b"
+    },
+    {
+      "id": "weapon.gladius",
+      "groupId": "weapon.gladius",
+      "name": "短剑",
+      "aliases": [
+        "剑",
+        "gladius"
+      ],
+      "category": "weapon",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/weapon/Gladius.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "MeleeWeapon_Gladius",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Weapons/MeleeMedieval.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Weapons/MeleeMedieval.xml",
+        "texturePath": "Things/Item/Equipment/WeaponMelee/Gladius",
+        "graphicClass": "Graphic_Single",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "以同类参考缩放到最终显示尺寸后的轮廓为准；细枪管、扳机孔和握把不能被加粗堵住。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        15,
+        50,
+        121,
+        71
+      ],
+      "transparentFraction": 0.9016,
+      "paletteSamples": [
+        "#101010",
+        "#d0d0d0",
+        "#f0f0f0",
+        "#707070",
+        "#909090"
+      ],
+      "sha256": "7ae1f8eec99f09b3322c11f77ec5c7598f802ba520056200e1725d3136243845"
+    },
+    {
+      "id": "weapon.knife",
+      "groupId": "weapon.knife",
+      "name": "匕首",
+      "aliases": [
+        "小刀",
+        "knife"
+      ],
+      "category": "weapon",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/weapon/Knife.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "MeleeWeapon_Knife",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Weapons/MeleeNeolithic.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Weapons/MeleeNeolithic.xml",
+        "texturePath": "Things/Item/Equipment/WeaponMelee/Knife",
+        "graphicClass": "Graphic_Single",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "以同类参考缩放到最终显示尺寸后的轮廓为准；细枪管、扳机孔和握把不能被加粗堵住。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        35,
+        52,
+        105,
+        74
+      ],
+      "transparentFraction": 0.9373,
+      "paletteSamples": [
+        "#101010",
+        "#d0d0d0",
+        "#f0f0f0",
+        "#505050",
+        "#303030"
+      ],
+      "sha256": "bc3eebb8f71a4d9aa27fe4d414b91b31613e8951a0c16c02617c19ac3373a330"
+    },
+    {
+      "id": "item.componentindustrial",
+      "groupId": "item.componentindustrial",
+      "name": "工业零部件",
+      "aliases": [
+        "零件",
+        "组件",
+        "component"
+      ],
+      "category": "item",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/item/ComponentIndustrial.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "ComponentIndustrial",
+        "definitionFile": "Core/Defs/ThingDefs_Items/Items_Resource_Manufactured.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Items/Items_Resource_Manufactured.xml",
+        "texturePath": "Things/Item/Resource/ComponentIndustrial",
+        "graphicClass": "Graphic_StackCount",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "小尺寸仍要清晰；不要为了粗边抹掉堆叠关系。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        3,
+        2,
+        63,
+        61
+      ],
+      "transparentFraction": 0.4019,
+      "paletteSamples": [
+        "#707070",
+        "#707050",
+        "#101010",
+        "#909090",
+        "#505050"
+      ],
+      "sha256": "5fd9bd46203bf15842c955f17ecd7f798ba41152786015275e6c02043035adf9"
+    },
+    {
+      "id": "item.componentspacer",
+      "groupId": "item.componentspacer",
+      "name": "高级零部件",
+      "aliases": [
+        "高级组件",
+        "advanced component"
+      ],
+      "category": "item",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/item/ComponentSpacer.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "ComponentSpacer",
+        "definitionFile": "Core/Defs/ThingDefs_Items/Items_Resource_Manufactured.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Items/Items_Resource_Manufactured.xml",
+        "texturePath": "Things/Item/Resource/ComponentSpacer",
+        "graphicClass": "Graphic_StackCount",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "小尺寸仍要清晰；不要为了粗边抹掉堆叠关系。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        3,
+        3,
+        59,
+        61
+      ],
+      "transparentFraction": 0.3401,
+      "paletteSamples": [
+        "#505050",
+        "#b0b0b0",
+        "#101010",
+        "#909090",
+        "#707070"
+      ],
+      "sha256": "55954ed88c4116255b880cd9c6f4621da2420b74564e74a41036a398bace6142"
+    },
+    {
+      "id": "item.steel_a",
+      "groupId": "item.steel_a",
+      "name": "钢铁",
+      "aliases": [
+        "钢材",
+        "金属",
+        "steel"
+      ],
+      "category": "item",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/item/Steel_a.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Steel",
+        "definitionFile": "Core/Defs/ThingDefs_Items/Items_Resource_Stuff.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Items/Items_Resource_Stuff.xml",
+        "texturePath": "Things/Item/Resource/Steel",
+        "graphicClass": "Graphic_StackCount",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "小尺寸仍要清晰；不要为了粗边抹掉堆叠关系。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        15,
+        18,
+        49,
+        48
+      ],
+      "transparentFraction": 0.7959,
+      "paletteSamples": [
+        "#101010",
+        "#707070",
+        "#505030",
+        "#705030",
+        "#505050"
+      ],
+      "sha256": "7ed3ce7de3cb19e57540ebfb4b784fbe96b6d29d7d09aaf164e1e689621392dd"
+    },
+    {
+      "id": "item.steel_b",
+      "groupId": "item.steel_a",
+      "name": "钢铁",
+      "aliases": [
+        "钢材",
+        "金属",
+        "steel"
+      ],
+      "category": "item",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/item/Steel_b.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Steel",
+        "definitionFile": "Core/Defs/ThingDefs_Items/Items_Resource_Stuff.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Items/Items_Resource_Stuff.xml",
+        "texturePath": "Things/Item/Resource/Steel",
+        "graphicClass": "Graphic_StackCount",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "小尺寸仍要清晰；不要为了粗边抹掉堆叠关系。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        3,
+        13,
+        59,
+        54
+      ],
+      "transparentFraction": 0.5164,
+      "paletteSamples": [
+        "#707070",
+        "#101010",
+        "#907070",
+        "#505050",
+        "#705050"
+      ],
+      "sha256": "695709404b419f3767a098476c42cdd2ebb4352f1b3ea41abe402dfb6b104128"
+    },
+    {
+      "id": "item.woodlog_a",
+      "groupId": "item.woodlog_a",
+      "name": "木材",
+      "aliases": [
+        "原木",
+        "wood"
+      ],
+      "category": "item",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/item/WoodLog_a.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "WoodLog",
+        "definitionFile": "Core/Defs/ThingDefs_Items/Items_Resource_Stuff.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Items/Items_Resource_Stuff.xml",
+        "texturePath": "Things/Item/Resource/WoodLog",
+        "graphicClass": "Graphic_StackCount",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "小尺寸仍要清晰；不要为了粗边抹掉堆叠关系。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        13,
+        14,
+        49,
+        50
+      ],
+      "transparentFraction": 0.835,
+      "paletteSamples": [
+        "#505010",
+        "#503010",
+        "#101010",
+        "#b09050",
+        "#505030"
+      ],
+      "sha256": "7d18a80f3a338eb2cfc47c0cd8dedd8a5999ea4ede48a6e00ae9877e6ee28edb"
+    },
+    {
+      "id": "item.gold_a",
+      "groupId": "item.gold_a",
+      "name": "黄金",
+      "aliases": [
+        "金块",
+        "gold"
+      ],
+      "category": "item",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/item/Gold_a.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Gold",
+        "definitionFile": "Core/Defs/ThingDefs_Items/Items_Resource_Stuff.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Items/Items_Resource_Stuff.xml",
+        "texturePath": "Things/Item/Resource/Gold",
+        "graphicClass": "Graphic_StackCount",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "小尺寸仍要清晰；不要为了粗边抹掉堆叠关系。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        19,
+        21,
+        47,
+        46
+      ],
+      "transparentFraction": 0.8694,
+      "paletteSamples": [
+        "#d0b030",
+        "#101010",
+        "#b09010",
+        "#907010",
+        "#f0d050"
+      ],
+      "sha256": "db0b247f1b2da085dedbe3c6843d710166eb20eadab62a804f65c6e33bbe657e"
+    },
+    {
+      "id": "item.silver_a",
+      "groupId": "item.silver_a",
+      "name": "白银",
+      "aliases": [
+        "银币",
+        "银块",
+        "silver"
+      ],
+      "category": "item",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/item/Silver_a.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Silver",
+        "definitionFile": "Core/Defs/ThingDefs_Items/Items_Resource_Stuff.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Items/Items_Resource_Stuff.xml",
+        "texturePath": "Things/Item/Resource/Silver",
+        "graphicClass": "Graphic_StackCount",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "小尺寸仍要清晰；不要为了粗边抹掉堆叠关系。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        21,
+        25,
+        41,
+        40
+      ],
+      "transparentFraction": 0.9399,
+      "paletteSamples": [
+        "#101010",
+        "#707070",
+        "#505050",
+        "#b0b0b0",
+        "#909070"
+      ],
+      "sha256": "2d687bfac38b9bd079e6715209c71c6dea43369ed15a6acf96700fb7a3e3c251"
+    },
+    {
+      "id": "item.chemfuel",
+      "groupId": "item.chemfuel",
+      "name": "化合燃料",
+      "aliases": [
+        "燃料",
+        "chemfuel"
+      ],
+      "category": "item",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/item/Chemfuel.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Chemfuel",
+        "definitionFile": "Core/Defs/ThingDefs_Items/Items_Resource_Manufactured.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Items/Items_Resource_Manufactured.xml",
+        "texturePath": "Things/Item/Resource/Chemfuel",
+        "graphicClass": "Graphic_Single",
+        "drawSize": "0.85",
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "小尺寸仍要清晰；不要为了粗边抹掉堆叠关系。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        8,
+        2,
+        58,
+        64
+      ],
+      "transparentFraction": 0.3142,
+      "paletteSamples": [
+        "#903030",
+        "#703030",
+        "#101010",
+        "#905050",
+        "#b05050"
+      ],
+      "sha256": "713c065fb68afa30343f4c5f2b0a6adbf557af6d102521486f45c6dfc3d07fa2"
+    },
+    {
+      "id": "item.beer_a",
+      "groupId": "item.beer_a",
+      "name": "啤酒",
+      "aliases": [
+        "酒瓶",
+        "beer"
+      ],
+      "category": "item",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/item/Beer_a.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Beer",
+        "definitionFile": "Core/Defs/Drugs/Alcohol_Beer.xml",
+        "textureFieldFile": "Core/Defs/Drugs/Alcohol_Beer.xml",
+        "texturePath": "Things/Item/Drug/Beer",
+        "graphicClass": "Graphic_StackCount",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "小尺寸仍要清晰；不要为了粗边抹掉堆叠关系。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        25,
+        15,
+        39,
+        56
+      ],
+      "transparentFraction": 0.8782,
+      "paletteSamples": [
+        "#705030",
+        "#905030",
+        "#101010",
+        "#503030",
+        "#505030"
+      ],
+      "sha256": "5da123f37cb2530bcf98ef890264d26d98d84e90266a1e2fae8d49b5e4520c0a"
+    },
+    {
+      "id": "item.chocolate_a",
+      "groupId": "item.chocolate_a",
+      "name": "巧克力",
+      "aliases": [
+        "食物",
+        "chocolate"
+      ],
+      "category": "item",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/item/Chocolate_a.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Chocolate",
+        "definitionFile": "Core/Defs/ThingDefs_Items/Items_Luxury.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Items/Items_Luxury.xml",
+        "texturePath": "Things/Item/Resource/Chocolate",
+        "graphicClass": "Graphic_StackCount",
+        "drawSize": "0.88",
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "小尺寸仍要清晰；不要为了粗边抹掉堆叠关系。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        18,
+        22,
+        46,
+        44
+      ],
+      "transparentFraction": 0.8708,
+      "paletteSamples": [
+        "#503010",
+        "#101010",
+        "#303010",
+        "#705010",
+        "#301010"
+      ],
+      "sha256": "36bc24639bae1cdac1b09f3f761cc34c469520444efd2b38c14c682c4f4cdea6"
+    },
+    {
+      "id": "item.medicineherbal_a",
+      "groupId": "item.medicineherbal_a",
+      "name": "草药",
+      "aliases": [
+        "草药药物",
+        "herbal medicine"
+      ],
+      "category": "item",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/item/MedicineHerbal_a.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "MedicineHerbal",
+        "definitionFile": "Core/Defs/ThingDefs_Items/Items_Resource_Manufactured.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Items/Items_Resource_Manufactured.xml",
+        "texturePath": "Things/Item/Resource/Medicine/MedicineHerbal",
+        "graphicClass": "Graphic_StackCount",
+        "drawSize": "0.85",
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "小尺寸仍要清晰；不要为了粗边抹掉堆叠关系。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        0,
+        10,
+        64,
+        55
+      ],
+      "transparentFraction": 0.4285,
+      "paletteSamples": [
+        "#505030",
+        "#101010",
+        "#709070",
+        "#305030",
+        "#303010"
+      ],
+      "sha256": "85ee56adee8e0ab4db379a1e1379e7091cd8cc645f7e204b5283a3919982682e"
+    },
+    {
+      "id": "item.medicineindustrial_a",
+      "groupId": "item.medicineindustrial_a",
+      "name": "工业医药",
+      "aliases": [
+        "药品",
+        "医疗包",
+        "medicine"
+      ],
+      "category": "item",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/item/MedicineIndustrial_a.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "MedicineIndustrial",
+        "definitionFile": "Core/Defs/ThingDefs_Items/Items_Resource_Manufactured.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Items/Items_Resource_Manufactured.xml",
+        "texturePath": "Things/Item/Resource/Medicine/MedicineIndustrial",
+        "graphicClass": "Graphic_StackCount",
+        "drawSize": "0.85",
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "小尺寸仍要清晰；不要为了粗边抹掉堆叠关系。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        7,
+        13,
+        57,
+        53
+      ],
+      "transparentFraction": 0.5215,
+      "paletteSamples": [
+        "#709090",
+        "#101010",
+        "#305050",
+        "#507070",
+        "#90b0b0"
+      ],
+      "sha256": "0f97568a9c5d29b98dcc101c1aeaabc44ece14321dbcbea5682a5c4aab59f3d9"
+    },
+    {
+      "id": "item.medicineultratech_a",
+      "groupId": "item.medicineultratech_a",
+      "name": "闪耀世界医药",
+      "aliases": [
+        "高级药品",
+        "glitterworld medicine"
+      ],
+      "category": "item",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/item/MedicineUltratech_a.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "MedicineUltratech",
+        "definitionFile": "Core/Defs/ThingDefs_Items/Items_Resource_Manufactured.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Items/Items_Resource_Manufactured.xml",
+        "texturePath": "Things/Item/Resource/Medicine/MedicineUltratech",
+        "graphicClass": "Graphic_StackCount",
+        "drawSize": "0.85",
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "小尺寸仍要清晰；不要为了粗边抹掉堆叠关系。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        7,
+        13,
+        57,
+        53
+      ],
+      "transparentFraction": 0.5215,
+      "paletteSamples": [
+        "#b0b0b0",
+        "#909090",
+        "#101010",
+        "#507070",
+        "#505050"
+      ],
+      "sha256": "965191bfb61b32fbb689e3c346d439a7ffc87376095a448ec5be589fdf7698c2"
+    },
+    {
+      "id": "building.battery_north",
+      "groupId": "building.battery",
+      "name": "蓄电池建筑",
+      "aliases": [
+        "蓄电池",
+        "电池",
+        "battery"
+      ],
+      "category": "building",
+      "role": "main",
+      "direction": "north",
+      "bodyType": null,
+      "file": "references/images/building/Battery_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Battery",
+        "definitionFile": "Core/Defs/ThingDefs_Buildings/Buildings_Power.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Buildings/Buildings_Power.xml",
+        "texturePath": "Things/Building/Power/Battery",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": "(2,3)",
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "地图建筑；原版仅提供 north/east，south/west 的复用由 Graphic_Multi 决定。不是电池 UI 符号。",
+      "outlineNotes": "沿用同类参考的深色边缘和层级，不对所有家具统一增加纯黑粗边。",
+      "width": 128,
+      "height": 256,
+      "hasAlpha": true,
+      "alphaBounds": [
+        31,
+        42,
+        97,
+        226
+      ],
+      "transparentFraction": 0.6295,
+      "paletteSamples": [
+        "#909070",
+        "#909090",
+        "#101010",
+        "#507070",
+        "#707070"
+      ],
+      "sha256": "550281228d22a423d5544693d323012e435e5d40b10055d84cd2ccd6b5aa5d53"
+    },
+    {
+      "id": "building.battery_east",
+      "groupId": "building.battery",
+      "name": "蓄电池建筑",
+      "aliases": [
+        "蓄电池",
+        "电池",
+        "battery"
+      ],
+      "category": "building",
+      "role": "main",
+      "direction": "east",
+      "bodyType": null,
+      "file": "references/images/building/Battery_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Battery",
+        "definitionFile": "Core/Defs/ThingDefs_Buildings/Buildings_Power.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Buildings/Buildings_Power.xml",
+        "texturePath": "Things/Building/Power/Battery",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": "(2,3)",
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "地图建筑；原版仅提供 north/east，south/west 的复用由 Graphic_Multi 决定。不是电池 UI 符号。",
+      "outlineNotes": "沿用同类参考的深色边缘和层级，不对所有家具统一增加纯黑粗边。",
+      "width": 256,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        42,
+        31,
+        214,
+        105
+      ],
+      "transparentFraction": 0.6125,
+      "paletteSamples": [
+        "#909070",
+        "#909090",
+        "#101010",
+        "#507070",
+        "#303030"
+      ],
+      "sha256": "da1396f7b6b3ea8c388000e34bf4fa38071d3d7557e4d8e6df93cf7418a6ec0c"
+    },
+    {
+      "id": "building.bed_south",
+      "groupId": "building.bed",
+      "name": "单人床",
+      "aliases": [
+        "床",
+        "家具",
+        "bed"
+      ],
+      "category": "building",
+      "role": "main",
+      "direction": "south",
+      "bodyType": null,
+      "file": "references/images/building/Bed_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Bed",
+        "definitionFile": "Core/Defs/ThingDefs_Buildings/Buildings_Furniture.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Buildings/Buildings_Furniture.xml",
+        "texturePath": "Things/Building/Furniture/Bed/Bed",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": "(2,2)",
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "沿用同类参考的深色边缘和层级，不对所有家具统一增加纯黑粗边。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        31,
+        0,
+        97,
+        128
+      ],
+      "transparentFraction": 0.5065,
+      "paletteSamples": [
+        "#707070",
+        "#101010",
+        "#909090",
+        "#b0b0b0",
+        "#f0f0f0"
+      ],
+      "sha256": "32b6471d0be125690b3406d9ec9ac78d2bcfbe07bdee2821335de78f842b9670"
+    },
+    {
+      "id": "building.bed_north",
+      "groupId": "building.bed",
+      "name": "单人床",
+      "aliases": [
+        "床",
+        "家具",
+        "bed"
+      ],
+      "category": "building",
+      "role": "main",
+      "direction": "north",
+      "bodyType": null,
+      "file": "references/images/building/Bed_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Bed",
+        "definitionFile": "Core/Defs/ThingDefs_Buildings/Buildings_Furniture.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Buildings/Buildings_Furniture.xml",
+        "texturePath": "Things/Building/Furniture/Bed/Bed",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": "(2,2)",
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "沿用同类参考的深色边缘和层级，不对所有家具统一增加纯黑粗边。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        31,
+        0,
+        97,
+        128
+      ],
+      "transparentFraction": 0.5126,
+      "paletteSamples": [
+        "#707070",
+        "#b0b0b0",
+        "#101010",
+        "#f0f0f0",
+        "#909090"
+      ],
+      "sha256": "b5ee57aa29905af4b704afea297a6dff68c5aae70c966c913d8b8cb90a1425df"
+    },
+    {
+      "id": "building.bed_east",
+      "groupId": "building.bed",
+      "name": "单人床",
+      "aliases": [
+        "床",
+        "家具",
+        "bed"
+      ],
+      "category": "building",
+      "role": "main",
+      "direction": "east",
+      "bodyType": null,
+      "file": "references/images/building/Bed_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Bed",
+        "definitionFile": "Core/Defs/ThingDefs_Buildings/Buildings_Furniture.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Buildings/Buildings_Furniture.xml",
+        "texturePath": "Things/Building/Furniture/Bed/Bed",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": "(2,2)",
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "沿用同类参考的深色边缘和层级，不对所有家具统一增加纯黑粗边。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        0,
+        26,
+        128,
+        99
+      ],
+      "transparentFraction": 0.4613,
+      "paletteSamples": [
+        "#707070",
+        "#b0b0b0",
+        "#101010",
+        "#f0f0f0",
+        "#909090"
+      ],
+      "sha256": "59cda69a6cf06ab39ced2f66e257925e94489833b4bde44bbb6ba6f10d4e8ff1"
+    },
+    {
+      "id": "building.tablebutcher_south",
+      "groupId": "building.tablebutcher",
+      "name": "屠宰桌",
+      "aliases": [
+        "屠宰台",
+        "工作台",
+        "butcher table"
+      ],
+      "category": "building",
+      "role": "main",
+      "direction": "south",
+      "bodyType": null,
+      "file": "references/images/building/TableButcher_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "TableButcher",
+        "definitionFile": "Core/Defs/ThingDefs_Buildings/Buildings_Production.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Buildings/Buildings_Production.xml",
+        "texturePath": "Things/Building/Production/TableButcher",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": "(3.5,1.5)",
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "沿用同类参考的深色边缘和层级，不对所有家具统一增加纯黑粗边。",
+      "width": 224,
+      "height": 96,
+      "hasAlpha": true,
+      "alphaBounds": [
+        16,
+        16,
+        208,
+        89
+      ],
+      "transparentFraction": 0.3482,
+      "paletteSamples": [
+        "#d0d0d0",
+        "#f0f0f0",
+        "#909090",
+        "#101010",
+        "#b0b0b0"
+      ],
+      "sha256": "b33e1f37f01aa7feb671971e4b81e19fe27577e6f6c18e610c2292e8ca6a48c2"
+    },
+    {
+      "id": "building.tablebutcher_north",
+      "groupId": "building.tablebutcher",
+      "name": "屠宰桌",
+      "aliases": [
+        "屠宰台",
+        "工作台",
+        "butcher table"
+      ],
+      "category": "building",
+      "role": "main",
+      "direction": "north",
+      "bodyType": null,
+      "file": "references/images/building/TableButcher_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "TableButcher",
+        "definitionFile": "Core/Defs/ThingDefs_Buildings/Buildings_Production.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Buildings/Buildings_Production.xml",
+        "texturePath": "Things/Building/Production/TableButcher",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": "(3.5,1.5)",
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "沿用同类参考的深色边缘和层级，不对所有家具统一增加纯黑粗边。",
+      "width": 224,
+      "height": 96,
+      "hasAlpha": true,
+      "alphaBounds": [
+        16,
+        16,
+        208,
+        89
+      ],
+      "transparentFraction": 0.3482,
+      "paletteSamples": [
+        "#d0d0d0",
+        "#f0f0f0",
+        "#909090",
+        "#101010",
+        "#b0b0b0"
+      ],
+      "sha256": "3373cb1a0bd5b1ac665445dfe2d9e0f6a490d5eb101bf492919025ccc61b4b9c"
+    },
+    {
+      "id": "building.tablebutcher_east",
+      "groupId": "building.tablebutcher",
+      "name": "屠宰桌",
+      "aliases": [
+        "屠宰台",
+        "工作台",
+        "butcher table"
+      ],
+      "category": "building",
+      "role": "main",
+      "direction": "east",
+      "bodyType": null,
+      "file": "references/images/building/TableButcher_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "TableButcher",
+        "definitionFile": "Core/Defs/ThingDefs_Buildings/Buildings_Production.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Buildings/Buildings_Production.xml",
+        "texturePath": "Things/Building/Production/TableButcher",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": "(3.5,1.5)",
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "沿用同类参考的深色边缘和层级，不对所有家具统一增加纯黑粗边。",
+      "width": 96,
+      "height": 224,
+      "hasAlpha": true,
+      "alphaBounds": [
+        16,
+        16,
+        80,
+        217
+      ],
+      "transparentFraction": 0.4018,
+      "paletteSamples": [
+        "#d0d0d0",
+        "#f0f0f0",
+        "#101010",
+        "#b0b0b0",
+        "#909090"
+      ],
+      "sha256": "8350f8d1344876724a477584ca0283f405d433c571b792cdf56d5e3263b950cb"
+    },
+    {
+      "id": "building.tablemachining_south",
+      "groupId": "building.tablemachining",
+      "name": "机械加工台",
+      "aliases": [
+        "机械加工桌",
+        "工作台",
+        "machining table"
+      ],
+      "category": "building",
+      "role": "main",
+      "direction": "south",
+      "bodyType": null,
+      "file": "references/images/building/TableMachining_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "TableMachining",
+        "definitionFile": "Core/Defs/ThingDefs_Buildings/Buildings_Production.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Buildings/Buildings_Production.xml",
+        "texturePath": "Things/Building/Production/TableMachining",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": "(3.5,1.5)",
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "沿用同类参考的深色边缘和层级，不对所有家具统一增加纯黑粗边。",
+      "width": 224,
+      "height": 96,
+      "hasAlpha": true,
+      "alphaBounds": [
+        16,
+        16,
+        208,
+        89
+      ],
+      "transparentFraction": 0.3482,
+      "paletteSamples": [
+        "#303030",
+        "#305050",
+        "#505050",
+        "#101010",
+        "#305070"
+      ],
+      "sha256": "316974fb95b006fd5c050d8d1c5e7452eeca4a55447d8c6eb1fd67a5397cbbee"
+    },
+    {
+      "id": "building.tablemachining_north",
+      "groupId": "building.tablemachining",
+      "name": "机械加工台",
+      "aliases": [
+        "机械加工桌",
+        "工作台",
+        "machining table"
+      ],
+      "category": "building",
+      "role": "main",
+      "direction": "north",
+      "bodyType": null,
+      "file": "references/images/building/TableMachining_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "TableMachining",
+        "definitionFile": "Core/Defs/ThingDefs_Buildings/Buildings_Production.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Buildings/Buildings_Production.xml",
+        "texturePath": "Things/Building/Production/TableMachining",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": "(3.5,1.5)",
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "沿用同类参考的深色边缘和层级，不对所有家具统一增加纯黑粗边。",
+      "width": 224,
+      "height": 96,
+      "hasAlpha": true,
+      "alphaBounds": [
+        16,
+        16,
+        208,
+        89
+      ],
+      "transparentFraction": 0.3482,
+      "paletteSamples": [
+        "#303030",
+        "#305050",
+        "#505050",
+        "#101010",
+        "#305070"
+      ],
+      "sha256": "f0e7494881dafbf0e7112278ebda0545052d0264d132fd9485a6d564128179f8"
+    },
+    {
+      "id": "building.tablemachining_east",
+      "groupId": "building.tablemachining",
+      "name": "机械加工台",
+      "aliases": [
+        "机械加工桌",
+        "工作台",
+        "machining table"
+      ],
+      "category": "building",
+      "role": "main",
+      "direction": "east",
+      "bodyType": null,
+      "file": "references/images/building/TableMachining_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "TableMachining",
+        "definitionFile": "Core/Defs/ThingDefs_Buildings/Buildings_Production.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Buildings/Buildings_Production.xml",
+        "texturePath": "Things/Building/Production/TableMachining",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": "(3.5,1.5)",
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "沿用同类参考的深色边缘和层级，不对所有家具统一增加纯黑粗边。",
+      "width": 96,
+      "height": 224,
+      "hasAlpha": true,
+      "alphaBounds": [
+        16,
+        16,
+        80,
+        217
+      ],
+      "transparentFraction": 0.4018,
+      "paletteSamples": [
+        "#303030",
+        "#305050",
+        "#505050",
+        "#101010",
+        "#305070"
+      ],
+      "sha256": "ad23b0fa982a42d48d97e4f23f5617c127a719814d2f41b1902121604d26b7af"
+    },
+    {
+      "id": "building.researchbenchsimple_south",
+      "groupId": "building.researchbenchsimple",
+      "name": "简易研究台",
+      "aliases": [
+        "研究桌",
+        "科研台",
+        "research bench"
+      ],
+      "category": "building",
+      "role": "main",
+      "direction": "south",
+      "bodyType": null,
+      "file": "references/images/building/ResearchBenchSimple_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "SimpleResearchBench",
+        "definitionFile": "Core/Defs/ThingDefs_Buildings/Buildings_Production.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Buildings/Buildings_Production.xml",
+        "texturePath": "Things/Building/Production/ResearchBenchSimple",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": "(5,4)",
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "沿用同类参考的深色边缘和层级，不对所有家具统一增加纯黑粗边。",
+      "width": 320,
+      "height": 256,
+      "hasAlpha": true,
+      "alphaBounds": [
+        65,
+        64,
+        255,
+        201
+      ],
+      "transparentFraction": 0.6823,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#d0d0d0",
+        "#707070",
+        "#b0b0b0",
+        "#101010"
+      ],
+      "sha256": "49c32a077bd982c30c31829e30a0955be340aa2f12be537719efe34b404b65cb"
+    },
+    {
+      "id": "building.researchbenchsimple_north",
+      "groupId": "building.researchbenchsimple",
+      "name": "简易研究台",
+      "aliases": [
+        "研究桌",
+        "科研台",
+        "research bench"
+      ],
+      "category": "building",
+      "role": "main",
+      "direction": "north",
+      "bodyType": null,
+      "file": "references/images/building/ResearchBenchSimple_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "SimpleResearchBench",
+        "definitionFile": "Core/Defs/ThingDefs_Buildings/Buildings_Production.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Buildings/Buildings_Production.xml",
+        "texturePath": "Things/Building/Production/ResearchBenchSimple",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": "(5,4)",
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "沿用同类参考的深色边缘和层级，不对所有家具统一增加纯黑粗边。",
+      "width": 320,
+      "height": 256,
+      "hasAlpha": true,
+      "alphaBounds": [
+        65,
+        56,
+        255,
+        201
+      ],
+      "transparentFraction": 0.6812,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#d0d0d0",
+        "#b0b0b0",
+        "#707070",
+        "#101010"
+      ],
+      "sha256": "c92ce03cab40a22d9a18c2420fab4fa153187acd23e20ccf46724a3a608245f3"
+    },
+    {
+      "id": "building.researchbenchsimple_east",
+      "groupId": "building.researchbenchsimple",
+      "name": "简易研究台",
+      "aliases": [
+        "研究桌",
+        "科研台",
+        "research bench"
+      ],
+      "category": "building",
+      "role": "main",
+      "direction": "east",
+      "bodyType": null,
+      "file": "references/images/building/ResearchBenchSimple_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "SimpleResearchBench",
+        "definitionFile": "Core/Defs/ThingDefs_Buildings/Buildings_Production.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Buildings/Buildings_Production.xml",
+        "texturePath": "Things/Building/Production/ResearchBenchSimple",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": "(5,4)",
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "沿用同类参考的深色边缘和层级，不对所有家具统一增加纯黑粗边。",
+      "width": 256,
+      "height": 320,
+      "hasAlpha": true,
+      "alphaBounds": [
+        64,
+        63,
+        192,
+        265
+      ],
+      "transparentFraction": 0.6859,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#d0d0d0",
+        "#b0b0b0",
+        "#101010",
+        "#707070"
+      ],
+      "sha256": "9e088bf807ae4a338fd65d1b66cf6cd614aa70b2149de6e7ae68176d12f5c247"
+    },
+    {
+      "id": "building.cooler_south",
+      "groupId": "building.cooler",
+      "name": "空调",
+      "aliases": [
+        "冷却器",
+        "cooler"
+      ],
+      "category": "building",
+      "role": "main",
+      "direction": "south",
+      "bodyType": null,
+      "file": "references/images/building/Cooler_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Cooler",
+        "definitionFile": "Core/Defs/ThingDefs_Buildings/Buildings_Temperature.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Buildings/Buildings_Temperature.xml",
+        "texturePath": "Things/Building/Misc/TempControl/Cooler",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "沿用同类参考的深色边缘和层级，不对所有家具统一增加纯黑粗边。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "transparentFraction": 0.0,
+      "paletteSamples": [
+        "#d0d0d0",
+        "#909090",
+        "#101010",
+        "#707070",
+        "#f0f0f0"
+      ],
+      "sha256": "62dfc76ccc13cccf8c35a9d13ef682c75d8c0beb3af8054b6f6eaa8e427bf6a6"
+    },
+    {
+      "id": "building.cooler_north",
+      "groupId": "building.cooler",
+      "name": "空调",
+      "aliases": [
+        "冷却器",
+        "cooler"
+      ],
+      "category": "building",
+      "role": "main",
+      "direction": "north",
+      "bodyType": null,
+      "file": "references/images/building/Cooler_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Cooler",
+        "definitionFile": "Core/Defs/ThingDefs_Buildings/Buildings_Temperature.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Buildings/Buildings_Temperature.xml",
+        "texturePath": "Things/Building/Misc/TempControl/Cooler",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "沿用同类参考的深色边缘和层级，不对所有家具统一增加纯黑粗边。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "transparentFraction": 0.0,
+      "paletteSamples": [
+        "#d0d0d0",
+        "#909090",
+        "#101010",
+        "#707070",
+        "#f0f0f0"
+      ],
+      "sha256": "47bba32a9aeb2fe64095f9dbc344f2c3a0d89c9c6df79d67f4cc8687e7e9436d"
+    },
+    {
+      "id": "building.cooler_east",
+      "groupId": "building.cooler",
+      "name": "空调",
+      "aliases": [
+        "冷却器",
+        "cooler"
+      ],
+      "category": "building",
+      "role": "main",
+      "direction": "east",
+      "bodyType": null,
+      "file": "references/images/building/Cooler_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Cooler",
+        "definitionFile": "Core/Defs/ThingDefs_Buildings/Buildings_Temperature.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Buildings/Buildings_Temperature.xml",
+        "texturePath": "Things/Building/Misc/TempControl/Cooler",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "沿用同类参考的深色边缘和层级，不对所有家具统一增加纯黑粗边。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "transparentFraction": 0.0,
+      "paletteSamples": [
+        "#d0d0d0",
+        "#909090",
+        "#101010",
+        "#f0f0f0",
+        "#b0b0b0"
+      ],
+      "sha256": "e96b45307f4a3978134112bf98eeccc9f39ccab397a2999018f5817c79d28a77"
+    },
+    {
+      "id": "building.heater",
+      "groupId": "building.heater",
+      "name": "电暖器",
+      "aliases": [
+        "暖气",
+        "heater"
+      ],
+      "category": "building",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/building/Heater.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Heater",
+        "definitionFile": "Core/Defs/ThingDefs_Buildings/Buildings_Temperature.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Buildings/Buildings_Temperature.xml",
+        "texturePath": "Things/Building/Misc/TempControl/Heater",
+        "graphicClass": "Graphic_Single",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "沿用同类参考的深色边缘和层级，不对所有家具统一增加纯黑粗边。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        15,
+        1,
+        48,
+        64
+      ],
+      "transparentFraction": 0.4934,
+      "paletteSamples": [
+        "#505050",
+        "#101010",
+        "#303030",
+        "#503050",
+        "#b03010"
+      ],
+      "sha256": "25eb7db1594e746bf0fb8c419151611d5cded53e373a35c94529e4234136cd48"
+    },
+    {
+      "id": "building.turretmini_base",
+      "groupId": "building.turretmini_base",
+      "name": "机枪炮塔底座",
+      "aliases": [
+        "炮塔底座",
+        "自动炮塔",
+        "turret base"
+      ],
+      "category": "building",
+      "role": "component",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/building/TurretMini_Base.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Turret_MiniTurret",
+        "definitionFile": "Core/Defs/ThingDefs_Buildings/Buildings_Security_Turrets.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Buildings/Buildings_Security_Turrets.xml",
+        "texturePath": "Things/Building/Security/TurretMini_Base",
+        "graphicClass": "Graphic_Single",
+        "drawSize": "(3,3)",
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "只含底座；需要与独立顶部组合。",
+      "outlineNotes": "沿用同类参考的深色边缘和层级，不对所有家具统一增加纯黑粗边。",
+      "width": 192,
+      "height": 192,
+      "hasAlpha": true,
+      "alphaBounds": [
+        58,
+        65,
+        133,
+        136
+      ],
+      "transparentFraction": 0.9599,
+      "paletteSamples": [
+        "#707070",
+        "#101010",
+        "#b0b0b0",
+        "#909090",
+        "#505050"
+      ],
+      "sha256": "203a1442cf880fc4b5157fdbc23a3a6ce99f4550f47e1561455d77dbcdcc68ab"
+    },
+    {
+      "id": "building.turretmini_top",
+      "groupId": "building.turretmini_top",
+      "name": "机枪炮塔顶部",
+      "aliases": [
+        "炮塔炮管",
+        "炮塔顶部",
+        "turret top"
+      ],
+      "category": "building",
+      "role": "component",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/building/TurretMini_Top.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Gun_MiniTurret",
+        "definitionFile": "Core/Defs/ThingDefs_Buildings/Buildings_Security_Turrets.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Buildings/Buildings_Security_Turrets.xml",
+        "texturePath": "Things/Building/Security/TurretMini_Top",
+        "graphicClass": "Graphic_Single",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "只含可旋转顶部，保留原始画布枢轴；不是完整炮塔。",
+      "outlineNotes": "沿用同类参考的深色边缘和层级，不对所有家具统一增加纯黑粗边。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        47,
+        56,
+        99,
+        71
+      ],
+      "transparentFraction": 0.9589,
+      "paletteSamples": [
+        "#707050",
+        "#101010",
+        "#909090",
+        "#505050",
+        "#705050"
+      ],
+      "sha256": "f6a12ddb2564cb506935a24bf43f28b344a4d2c27025770854954f8a81afdf42"
+    },
+    {
+      "id": "animal.muffalo_south",
+      "groupId": "animal.muffalo",
+      "name": "牦牛",
+      "aliases": [
+        "蓝牛",
+        "muffalo"
+      ],
+      "category": "animal",
+      "role": "main",
+      "direction": "south",
+      "bodyType": null,
+      "file": "references/images/animal/Muffalo_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "PawnKindDef",
+        "defName": "Muffalo",
+        "definitionFile": "Core/Defs/ThingDefs_Races/Races_Animal_CowGroup.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Races/Races_Animal_CowGroup.xml",
+        "texturePath": "Things/Pawn/Animal/Muffalo/Muffalo",
+        "graphicClass": null,
+        "drawSize": "3",
+        "usage": "最后一个匹配的生长阶段/变体；drawSize 属于该阶段",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "匹配同类体量参考；耳、角、腿间空隙在缩小后仍可辨识。",
+      "width": 256,
+      "height": 256,
+      "hasAlpha": true,
+      "alphaBounds": [
+        57,
+        64,
+        201,
+        201
+      ],
+      "transparentFraction": 0.7625,
+      "paletteSamples": [
+        "#90b0b0",
+        "#b0b0b0",
+        "#709090",
+        "#101010",
+        "#707070"
+      ],
+      "sha256": "23c97fc0ac9d1e06bdeda1132df56dfcc535ed3fbaf731f4934382393650a11e"
+    },
+    {
+      "id": "animal.muffalo_north",
+      "groupId": "animal.muffalo",
+      "name": "牦牛",
+      "aliases": [
+        "蓝牛",
+        "muffalo"
+      ],
+      "category": "animal",
+      "role": "main",
+      "direction": "north",
+      "bodyType": null,
+      "file": "references/images/animal/Muffalo_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "PawnKindDef",
+        "defName": "Muffalo",
+        "definitionFile": "Core/Defs/ThingDefs_Races/Races_Animal_CowGroup.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Races/Races_Animal_CowGroup.xml",
+        "texturePath": "Things/Pawn/Animal/Muffalo/Muffalo",
+        "graphicClass": null,
+        "drawSize": "3",
+        "usage": "最后一个匹配的生长阶段/变体；drawSize 属于该阶段",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "匹配同类体量参考；耳、角、腿间空隙在缩小后仍可辨识。",
+      "width": 256,
+      "height": 256,
+      "hasAlpha": true,
+      "alphaBounds": [
+        57,
+        64,
+        201,
+        202
+      ],
+      "transparentFraction": 0.7552,
+      "paletteSamples": [
+        "#909090",
+        "#90b0b0",
+        "#b0b0b0",
+        "#b0b0d0",
+        "#b0d0d0"
+      ],
+      "sha256": "c483020d8127f0d949c5d8bc268160ec99f0672e205205a83c6b7d6aa259af55"
+    },
+    {
+      "id": "animal.muffalo_east",
+      "groupId": "animal.muffalo",
+      "name": "牦牛",
+      "aliases": [
+        "蓝牛",
+        "muffalo"
+      ],
+      "category": "animal",
+      "role": "main",
+      "direction": "east",
+      "bodyType": null,
+      "file": "references/images/animal/Muffalo_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "PawnKindDef",
+        "defName": "Muffalo",
+        "definitionFile": "Core/Defs/ThingDefs_Races/Races_Animal_CowGroup.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Races/Races_Animal_CowGroup.xml",
+        "texturePath": "Things/Pawn/Animal/Muffalo/Muffalo",
+        "graphicClass": null,
+        "drawSize": "3",
+        "usage": "最后一个匹配的生长阶段/变体；drawSize 属于该阶段",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "匹配同类体量参考；耳、角、腿间空隙在缩小后仍可辨识。",
+      "width": 256,
+      "height": 256,
+      "hasAlpha": true,
+      "alphaBounds": [
+        31,
+        50,
+        233,
+        193
+      ],
+      "transparentFraction": 0.6635,
+      "paletteSamples": [
+        "#90b0b0",
+        "#b0d0d0",
+        "#709090",
+        "#b0b0b0",
+        "#909090"
+      ],
+      "sha256": "e2d12069726f2428d11b47a2cfc4d02a18a448e336184e3e615fe0e19697ac68"
+    },
+    {
+      "id": "animal.cow_south",
+      "groupId": "animal.cow",
+      "name": "母牛",
+      "aliases": [
+        "奶牛",
+        "cow"
+      ],
+      "category": "animal",
+      "role": "main",
+      "direction": "south",
+      "bodyType": null,
+      "file": "references/images/animal/Cow_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "PawnKindDef",
+        "defName": "Cow",
+        "definitionFile": "Core/Defs/ThingDefs_Races/Races_Animal_CowGroup.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Races/Races_Animal_CowGroup.xml",
+        "texturePath": "Things/Pawn/Animal/Cow/Cow",
+        "graphicClass": null,
+        "drawSize": "2.6",
+        "usage": "最后一个匹配的生长阶段/变体；drawSize 属于该阶段",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "匹配同类体量参考；耳、角、腿间空隙在缩小后仍可辨识。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        39,
+        30,
+        88,
+        109
+      ],
+      "transparentFraction": 0.8187,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#d0d0d0",
+        "#101010",
+        "#505050",
+        "#b0b0b0"
+      ],
+      "sha256": "71c0345152319bfe2a60e58564973efdc6a71018b528f732e93a769d6d1f7092"
+    },
+    {
+      "id": "animal.cow_north",
+      "groupId": "animal.cow",
+      "name": "母牛",
+      "aliases": [
+        "奶牛",
+        "cow"
+      ],
+      "category": "animal",
+      "role": "main",
+      "direction": "north",
+      "bodyType": null,
+      "file": "references/images/animal/Cow_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "PawnKindDef",
+        "defName": "Cow",
+        "definitionFile": "Core/Defs/ThingDefs_Races/Races_Animal_CowGroup.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Races/Races_Animal_CowGroup.xml",
+        "texturePath": "Things/Pawn/Animal/Cow/Cow",
+        "graphicClass": null,
+        "drawSize": "2.6",
+        "usage": "最后一个匹配的生长阶段/变体；drawSize 属于该阶段",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "匹配同类体量参考；耳、角、腿间空隙在缩小后仍可辨识。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        39,
+        18,
+        89,
+        109
+      ],
+      "transparentFraction": 0.8004,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#d0d0d0",
+        "#101010",
+        "#505050",
+        "#b0b0b0"
+      ],
+      "sha256": "a5f5c6b6388f3ece5f2f041a9a6c746499b01d347a24389291966118effc674d"
+    },
+    {
+      "id": "animal.cow_east",
+      "groupId": "animal.cow",
+      "name": "母牛",
+      "aliases": [
+        "奶牛",
+        "cow"
+      ],
+      "category": "animal",
+      "role": "main",
+      "direction": "east",
+      "bodyType": null,
+      "file": "references/images/animal/Cow_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "PawnKindDef",
+        "defName": "Cow",
+        "definitionFile": "Core/Defs/ThingDefs_Races/Races_Animal_CowGroup.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Races/Races_Animal_CowGroup.xml",
+        "texturePath": "Things/Pawn/Animal/Cow/Cow",
+        "graphicClass": null,
+        "drawSize": "2.6",
+        "usage": "最后一个匹配的生长阶段/变体；drawSize 属于该阶段",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "匹配同类体量参考；耳、角、腿间空隙在缩小后仍可辨识。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        2,
+        32,
+        126,
+        95
+      ],
+      "transparentFraction": 0.7255,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#d0d0d0",
+        "#101010",
+        "#505050",
+        "#b0b0b0"
+      ],
+      "sha256": "557825e17944752c5a38dd054a33c5e09403204a4923014b98901a21330cbbec"
+    },
+    {
+      "id": "animal.warg_south",
+      "groupId": "animal.warg",
+      "name": "座狼",
+      "aliases": [
+        "狼",
+        "warg"
+      ],
+      "category": "animal",
+      "role": "main",
+      "direction": "south",
+      "bodyType": null,
+      "file": "references/images/animal/Warg_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "PawnKindDef",
+        "defName": "Warg",
+        "definitionFile": "Core/Defs/ThingDefs_Races/Races_Animal_WargGroup.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Races/Races_Animal_WargGroup.xml",
+        "texturePath": "Things/Pawn/Animal/Warg/Warg",
+        "graphicClass": null,
+        "drawSize": "2.15",
+        "usage": "最后一个匹配的生长阶段/变体；drawSize 属于该阶段",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "匹配同类体量参考；耳、角、腿间空隙在缩小后仍可辨识。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        36,
+        3,
+        91,
+        107
+      ],
+      "transparentFraction": 0.8117,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#d0d0d0",
+        "#101010",
+        "#707070",
+        "#505050"
+      ],
+      "sha256": "362357e59c69c2c36a071ee56cc282c18da9c4b73a0d6d55ffc87684a0da8dfd"
+    },
+    {
+      "id": "animal.warg_north",
+      "groupId": "animal.warg",
+      "name": "座狼",
+      "aliases": [
+        "狼",
+        "warg"
+      ],
+      "category": "animal",
+      "role": "main",
+      "direction": "north",
+      "bodyType": null,
+      "file": "references/images/animal/Warg_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "PawnKindDef",
+        "defName": "Warg",
+        "definitionFile": "Core/Defs/ThingDefs_Races/Races_Animal_WargGroup.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Races/Races_Animal_WargGroup.xml",
+        "texturePath": "Things/Pawn/Animal/Warg/Warg",
+        "graphicClass": null,
+        "drawSize": "2.15",
+        "usage": "最后一个匹配的生长阶段/变体；drawSize 属于该阶段",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "匹配同类体量参考；耳、角、腿间空隙在缩小后仍可辨识。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        36,
+        25,
+        91,
+        123
+      ],
+      "transparentFraction": 0.8028,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#d0d0d0",
+        "#101010",
+        "#707070",
+        "#505050"
+      ],
+      "sha256": "443183ef3d8abe00781ac2993e0ccd66841ee2b510143512e48269065f59ad4e"
+    },
+    {
+      "id": "animal.warg_east",
+      "groupId": "animal.warg",
+      "name": "座狼",
+      "aliases": [
+        "狼",
+        "warg"
+      ],
+      "category": "animal",
+      "role": "main",
+      "direction": "east",
+      "bodyType": null,
+      "file": "references/images/animal/Warg_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "PawnKindDef",
+        "defName": "Warg",
+        "definitionFile": "Core/Defs/ThingDefs_Races/Races_Animal_WargGroup.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Races/Races_Animal_WargGroup.xml",
+        "texturePath": "Things/Pawn/Animal/Warg/Warg",
+        "graphicClass": null,
+        "drawSize": "2.15",
+        "usage": "最后一个匹配的生长阶段/变体；drawSize 属于该阶段",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "匹配同类体量参考；耳、角、腿间空隙在缩小后仍可辨识。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        2,
+        34,
+        125,
+        93
+      ],
+      "transparentFraction": 0.7588,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#101010",
+        "#d0d0d0",
+        "#505050",
+        "#b0b0b0"
+      ],
+      "sha256": "bb24ab9f3660cfa833ede8c527f0bf61ccd89f6d558be9a638df6dbda447f86c"
+    },
+    {
+      "id": "animal.boomalope_south",
+      "groupId": "animal.boomalope",
+      "name": "爆炸兽",
+      "aliases": [
+        "化合燃料动物",
+        "boomalope"
+      ],
+      "category": "animal",
+      "role": "main",
+      "direction": "south",
+      "bodyType": null,
+      "file": "references/images/animal/Boomalope_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "PawnKindDef",
+        "defName": "Boomalope",
+        "definitionFile": "Core/Defs/ThingDefs_Races/Races_Animal_CowGroup.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Races/Races_Animal_CowGroup.xml",
+        "texturePath": "Things/Pawn/Animal/Boomalope/Boomalope",
+        "graphicClass": null,
+        "drawSize": "2.2",
+        "usage": "最后一个匹配的生长阶段/变体；drawSize 属于该阶段",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "匹配同类体量参考；耳、角、腿间空隙在缩小后仍可辨识。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        33,
+        22,
+        94,
+        105
+      ],
+      "transparentFraction": 0.7544,
+      "paletteSamples": [
+        "#101010",
+        "#f0d090",
+        "#f0f0f0",
+        "#d0d070",
+        "#d0d0d0"
+      ],
+      "sha256": "c9a118cb28a6832dc63d11bfeb5ac969c29f5ab1e89d7bd77eb67d07b03b4d98"
+    },
+    {
+      "id": "animal.boomalope_north",
+      "groupId": "animal.boomalope",
+      "name": "爆炸兽",
+      "aliases": [
+        "化合燃料动物",
+        "boomalope"
+      ],
+      "category": "animal",
+      "role": "main",
+      "direction": "north",
+      "bodyType": null,
+      "file": "references/images/animal/Boomalope_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "PawnKindDef",
+        "defName": "Boomalope",
+        "definitionFile": "Core/Defs/ThingDefs_Races/Races_Animal_CowGroup.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Races/Races_Animal_CowGroup.xml",
+        "texturePath": "Things/Pawn/Animal/Boomalope/Boomalope",
+        "graphicClass": null,
+        "drawSize": "2.2",
+        "usage": "最后一个匹配的生长阶段/变体；drawSize 属于该阶段",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "匹配同类体量参考；耳、角、腿间空隙在缩小后仍可辨识。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        31,
+        20,
+        96,
+        108
+      ],
+      "transparentFraction": 0.7526,
+      "paletteSamples": [
+        "#101010",
+        "#f0f0f0",
+        "#f0d090",
+        "#d0d070",
+        "#d0b050"
+      ],
+      "sha256": "6859c8bd6d650d401abdd46c59e344859c46225e03c42de8d732b85715b2979a"
+    },
+    {
+      "id": "animal.boomalope_east",
+      "groupId": "animal.boomalope",
+      "name": "爆炸兽",
+      "aliases": [
+        "化合燃料动物",
+        "boomalope"
+      ],
+      "category": "animal",
+      "role": "main",
+      "direction": "east",
+      "bodyType": null,
+      "file": "references/images/animal/Boomalope_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "PawnKindDef",
+        "defName": "Boomalope",
+        "definitionFile": "Core/Defs/ThingDefs_Races/Races_Animal_CowGroup.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Races/Races_Animal_CowGroup.xml",
+        "texturePath": "Things/Pawn/Animal/Boomalope/Boomalope",
+        "graphicClass": null,
+        "drawSize": "2.2",
+        "usage": "最后一个匹配的生长阶段/变体；drawSize 属于该阶段",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "匹配同类体量参考；耳、角、腿间空隙在缩小后仍可辨识。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        0,
+        27,
+        128,
+        101
+      ],
+      "transparentFraction": 0.6241,
+      "paletteSamples": [
+        "#101010",
+        "#f0d090",
+        "#f0f0f0",
+        "#d0d0d0",
+        "#d0d070"
+      ],
+      "sha256": "c1f20d14bb165c7480f82222567e3c8fc630ea31c18ae0e44cd642b0a10e8990"
+    },
+    {
+      "id": "mechanoid.scyther_south",
+      "groupId": "mechanoid.scyther",
+      "name": "镰刀机械体",
+      "aliases": [
+        "螳螂",
+        "镰刀",
+        "scyther"
+      ],
+      "category": "mechanoid",
+      "role": "main",
+      "direction": "south",
+      "bodyType": null,
+      "file": "references/images/mechanoid/Scyther_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "PawnKindDef",
+        "defName": "Mech_Scyther",
+        "definitionFile": "Core/Defs/ThingDefs_Races/Races_Mechanoid.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Races/Races_Mechanoid.xml",
+        "texturePath": "Things/Pawn/Mechanoid/Scyther",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": "1.5",
+        "usage": "最后一个匹配的生长阶段/变体；drawSize 属于该阶段",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "外轮廓优先，内部装甲线次之；深色装甲填充不是待膨胀的线稿。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        35,
+        1,
+        94,
+        128
+      ],
+      "transparentFraction": 0.719,
+      "paletteSamples": [
+        "#101010",
+        "#303030",
+        "#505050",
+        "#b0b0b0",
+        "#909090"
+      ],
+      "sha256": "eebb071f2c24d5230d18b4e87fd9dc7825454d41cf1b05a611c776338e8b3886"
+    },
+    {
+      "id": "mechanoid.scyther_north",
+      "groupId": "mechanoid.scyther",
+      "name": "镰刀机械体",
+      "aliases": [
+        "螳螂",
+        "镰刀",
+        "scyther"
+      ],
+      "category": "mechanoid",
+      "role": "main",
+      "direction": "north",
+      "bodyType": null,
+      "file": "references/images/mechanoid/Scyther_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "PawnKindDef",
+        "defName": "Mech_Scyther",
+        "definitionFile": "Core/Defs/ThingDefs_Races/Races_Mechanoid.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Races/Races_Mechanoid.xml",
+        "texturePath": "Things/Pawn/Mechanoid/Scyther",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": "1.5",
+        "usage": "最后一个匹配的生长阶段/变体；drawSize 属于该阶段",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "外轮廓优先，内部装甲线次之；深色装甲填充不是待膨胀的线稿。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        34,
+        0,
+        95,
+        126
+      ],
+      "transparentFraction": 0.7151,
+      "paletteSamples": [
+        "#101010",
+        "#303030",
+        "#505050",
+        "#707070",
+        "#b0b0b0"
+      ],
+      "sha256": "6795ae75026b120937f3853d36f9be03b817e53422f9d8b3b4817aee6d2ed58b"
+    },
+    {
+      "id": "mechanoid.scyther_east",
+      "groupId": "mechanoid.scyther",
+      "name": "镰刀机械体",
+      "aliases": [
+        "螳螂",
+        "镰刀",
+        "scyther"
+      ],
+      "category": "mechanoid",
+      "role": "main",
+      "direction": "east",
+      "bodyType": null,
+      "file": "references/images/mechanoid/Scyther_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "PawnKindDef",
+        "defName": "Mech_Scyther",
+        "definitionFile": "Core/Defs/ThingDefs_Races/Races_Mechanoid.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Races/Races_Mechanoid.xml",
+        "texturePath": "Things/Pawn/Mechanoid/Scyther",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": "1.5",
+        "usage": "最后一个匹配的生长阶段/变体；drawSize 属于该阶段",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "外轮廓优先，内部装甲线次之；深色装甲填充不是待膨胀的线稿。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        11,
+        1,
+        116,
+        127
+      ],
+      "transparentFraction": 0.5057,
+      "paletteSamples": [
+        "#101010",
+        "#b0b0b0",
+        "#505050",
+        "#707070",
+        "#909090"
+      ],
+      "sha256": "567215d67814904b2184c85d7510c0d5853648f4b084682ead9beec8d32ceb63"
+    },
+    {
+      "id": "mechanoid.lancer_south",
+      "groupId": "mechanoid.lancer",
+      "name": "长枪机械体",
+      "aliases": [
+        "长枪兵",
+        "lancer"
+      ],
+      "category": "mechanoid",
+      "role": "main",
+      "direction": "south",
+      "bodyType": null,
+      "file": "references/images/mechanoid/Lancer_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "PawnKindDef",
+        "defName": "Mech_Lancer",
+        "definitionFile": "Core/Defs/ThingDefs_Races/Races_Mechanoid.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Races/Races_Mechanoid.xml",
+        "texturePath": "Things/Pawn/Mechanoid/Lancer",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": "1.5",
+        "usage": "最后一个匹配的生长阶段/变体；drawSize 属于该阶段",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "外轮廓优先，内部装甲线次之；深色装甲填充不是待膨胀的线稿。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        27,
+        1,
+        101,
+        127
+      ],
+      "transparentFraction": 0.5637,
+      "paletteSamples": [
+        "#101010",
+        "#909090",
+        "#707070",
+        "#505050",
+        "#b0b0b0"
+      ],
+      "sha256": "7a888b1d044b49a284ed4874c49aecf690a148eed418e00f2c451344437ddfa9"
+    },
+    {
+      "id": "mechanoid.lancer_north",
+      "groupId": "mechanoid.lancer",
+      "name": "长枪机械体",
+      "aliases": [
+        "长枪兵",
+        "lancer"
+      ],
+      "category": "mechanoid",
+      "role": "main",
+      "direction": "north",
+      "bodyType": null,
+      "file": "references/images/mechanoid/Lancer_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "PawnKindDef",
+        "defName": "Mech_Lancer",
+        "definitionFile": "Core/Defs/ThingDefs_Races/Races_Mechanoid.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Races/Races_Mechanoid.xml",
+        "texturePath": "Things/Pawn/Mechanoid/Lancer",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": "1.5",
+        "usage": "最后一个匹配的生长阶段/变体；drawSize 属于该阶段",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "外轮廓优先，内部装甲线次之；深色装甲填充不是待膨胀的线稿。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        27,
+        1,
+        101,
+        127
+      ],
+      "transparentFraction": 0.5804,
+      "paletteSamples": [
+        "#909090",
+        "#101010",
+        "#707070",
+        "#303030",
+        "#505050"
+      ],
+      "sha256": "33cb2a2f2edf668197e3def49935784cfde604700c6afcc6b87539dc6a90b598"
+    },
+    {
+      "id": "mechanoid.lancer_east",
+      "groupId": "mechanoid.lancer",
+      "name": "长枪机械体",
+      "aliases": [
+        "长枪兵",
+        "lancer"
+      ],
+      "category": "mechanoid",
+      "role": "main",
+      "direction": "east",
+      "bodyType": null,
+      "file": "references/images/mechanoid/Lancer_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "PawnKindDef",
+        "defName": "Mech_Lancer",
+        "definitionFile": "Core/Defs/ThingDefs_Races/Races_Mechanoid.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Races/Races_Mechanoid.xml",
+        "texturePath": "Things/Pawn/Mechanoid/Lancer",
+        "graphicClass": "Graphic_Multi",
+        "drawSize": "1.5",
+        "usage": "最后一个匹配的生长阶段/变体；drawSize 属于该阶段",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "外轮廓优先，内部装甲线次之；深色装甲填充不是待膨胀的线稿。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        20,
+        1,
+        108,
+        127
+      ],
+      "transparentFraction": 0.6036,
+      "paletteSamples": [
+        "#101010",
+        "#b0b0b0",
+        "#707070",
+        "#909090",
+        "#303030"
+      ],
+      "sha256": "042f30e0c3b9c2564fcb2f9bb79e882e6d4a6dbe89ded95a133bd5aa05423fa2"
+    },
+    {
+      "id": "body.naked_male_south",
+      "groupId": "body.naked_male",
+      "name": "男性身体模板",
+      "aliases": [
+        "男性身体",
+        "男体",
+        "male body"
+      ],
+      "category": "body",
+      "role": "template",
+      "direction": "south",
+      "bodyType": "Male",
+      "file": "references/images/body/Naked_Male_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "BodyTypeDef",
+        "defName": "Male",
+        "definitionFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "textureFieldFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "texturePath": "Things/Pawn/Humanlike/Bodies/Naked_Male",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "bodyNakedGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "模板边界约束优先；加粗应限制在明确的占位模板内。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        38,
+        43,
+        90,
+        108
+      ],
+      "transparentFraction": 0.8288,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#d0d0d0",
+        "#101010",
+        "#909090",
+        "#b0b0b0"
+      ],
+      "sha256": "0f678dbdc1d2a3274f3be44ecae29e182c948dfe18b4cc45d7c5166e0e6d6e8a"
+    },
+    {
+      "id": "body.naked_male_north",
+      "groupId": "body.naked_male",
+      "name": "男性身体模板",
+      "aliases": [
+        "男性身体",
+        "男体",
+        "male body"
+      ],
+      "category": "body",
+      "role": "template",
+      "direction": "north",
+      "bodyType": "Male",
+      "file": "references/images/body/Naked_Male_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "BodyTypeDef",
+        "defName": "Male",
+        "definitionFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "textureFieldFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "texturePath": "Things/Pawn/Humanlike/Bodies/Naked_Male",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "bodyNakedGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "模板边界约束优先；加粗应限制在明确的占位模板内。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        38,
+        43,
+        90,
+        108
+      ],
+      "transparentFraction": 0.829,
+      "paletteSamples": [
+        "#b0b0b0",
+        "#f0f0f0",
+        "#101010",
+        "#d0d0d0",
+        "#505050"
+      ],
+      "sha256": "33da4633bba0a37b21641bab44751e1039ad90a4f3f2368319b4c540101eeaac"
+    },
+    {
+      "id": "body.naked_male_east",
+      "groupId": "body.naked_male",
+      "name": "男性身体模板",
+      "aliases": [
+        "男性身体",
+        "男体",
+        "male body"
+      ],
+      "category": "body",
+      "role": "template",
+      "direction": "east",
+      "bodyType": "Male",
+      "file": "references/images/body/Naked_Male_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "BodyTypeDef",
+        "defName": "Male",
+        "definitionFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "textureFieldFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "texturePath": "Things/Pawn/Humanlike/Bodies/Naked_Male",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "bodyNakedGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "模板边界约束优先；加粗应限制在明确的占位模板内。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        42,
+        43,
+        86,
+        107
+      ],
+      "transparentFraction": 0.8599,
+      "paletteSamples": [
+        "#d0d0d0",
+        "#f0f0f0",
+        "#101010",
+        "#b0b0b0",
+        "#505050"
+      ],
+      "sha256": "244bc8758058e87637dc1878409302493b0179afcf4c2b2339721dde59019707"
+    },
+    {
+      "id": "body.naked_female_south",
+      "groupId": "body.naked_female",
+      "name": "女性身体模板",
+      "aliases": [
+        "女性身体",
+        "女体",
+        "female body"
+      ],
+      "category": "body",
+      "role": "template",
+      "direction": "south",
+      "bodyType": "Female",
+      "file": "references/images/body/Naked_Female_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "BodyTypeDef",
+        "defName": "Female",
+        "definitionFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "textureFieldFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "texturePath": "Things/Pawn/Humanlike/Bodies/Naked_Female",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "bodyNakedGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "模板边界约束优先；加粗应限制在明确的占位模板内。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        40,
+        38,
+        88,
+        113
+      ],
+      "transparentFraction": 0.8333,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#101010",
+        "#d0d0d0",
+        "#505050",
+        "#909090"
+      ],
+      "sha256": "02359583e4771c35ce99f25f625e9eeb453423c6d75f2b793660bb4fd35228be"
+    },
+    {
+      "id": "body.naked_female_north",
+      "groupId": "body.naked_female",
+      "name": "女性身体模板",
+      "aliases": [
+        "女性身体",
+        "女体",
+        "female body"
+      ],
+      "category": "body",
+      "role": "template",
+      "direction": "north",
+      "bodyType": "Female",
+      "file": "references/images/body/Naked_Female_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "BodyTypeDef",
+        "defName": "Female",
+        "definitionFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "textureFieldFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "texturePath": "Things/Pawn/Humanlike/Bodies/Naked_Female",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "bodyNakedGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "模板边界约束优先；加粗应限制在明确的占位模板内。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        40,
+        38,
+        88,
+        113
+      ],
+      "transparentFraction": 0.8333,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#101010",
+        "#d0d0d0",
+        "#909090",
+        "#505050"
+      ],
+      "sha256": "0f6620b5eb1164c3795660335f3656e9a20db14b10999c5314f2f356d78bfdbf"
+    },
+    {
+      "id": "body.naked_female_east",
+      "groupId": "body.naked_female",
+      "name": "女性身体模板",
+      "aliases": [
+        "女性身体",
+        "女体",
+        "female body"
+      ],
+      "category": "body",
+      "role": "template",
+      "direction": "east",
+      "bodyType": "Female",
+      "file": "references/images/body/Naked_Female_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "BodyTypeDef",
+        "defName": "Female",
+        "definitionFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "textureFieldFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "texturePath": "Things/Pawn/Humanlike/Bodies/Naked_Female",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "bodyNakedGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "模板边界约束优先；加粗应限制在明确的占位模板内。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        36,
+        39,
+        82,
+        113
+      ],
+      "transparentFraction": 0.8532,
+      "paletteSamples": [
+        "#d0d0d0",
+        "#f0f0f0",
+        "#101010",
+        "#505050",
+        "#b0b0b0"
+      ],
+      "sha256": "19774f493042c69c7762ab04e0e6c0657cc5fb081f00881531d38161bd84507f"
+    },
+    {
+      "id": "body.naked_thin_south",
+      "groupId": "body.naked_thin",
+      "name": "瘦弱身体模板",
+      "aliases": [
+        "瘦体",
+        "thin body"
+      ],
+      "category": "body",
+      "role": "template",
+      "direction": "south",
+      "bodyType": "Thin",
+      "file": "references/images/body/Naked_Thin_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "BodyTypeDef",
+        "defName": "Thin",
+        "definitionFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "textureFieldFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "texturePath": "Things/Pawn/Humanlike/Bodies/Naked_Thin",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "bodyNakedGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "模板边界约束优先；加粗应限制在明确的占位模板内。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        50,
+        43,
+        77,
+        109
+      ],
+      "transparentFraction": 0.9013,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#101010",
+        "#d0d0d0",
+        "#505050",
+        "#b0b0b0"
+      ],
+      "sha256": "5b9c07cf5052adf4ad0c00a80655d041acdfe6408ef868c2d7bf6a3a8982372b"
+    },
+    {
+      "id": "body.naked_thin_north",
+      "groupId": "body.naked_thin",
+      "name": "瘦弱身体模板",
+      "aliases": [
+        "瘦体",
+        "thin body"
+      ],
+      "category": "body",
+      "role": "template",
+      "direction": "north",
+      "bodyType": "Thin",
+      "file": "references/images/body/Naked_Thin_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "BodyTypeDef",
+        "defName": "Thin",
+        "definitionFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "textureFieldFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "texturePath": "Things/Pawn/Humanlike/Bodies/Naked_Thin",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "bodyNakedGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "模板边界约束优先；加粗应限制在明确的占位模板内。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        50,
+        43,
+        77,
+        109
+      ],
+      "transparentFraction": 0.9013,
+      "paletteSamples": [
+        "#b0b0b0",
+        "#101010",
+        "#d0d0d0",
+        "#f0f0f0",
+        "#707070"
+      ],
+      "sha256": "88307ce8b13418ceeb135d3c993b90598476df08289f615e2e0a3a37e1dd42f1"
+    },
+    {
+      "id": "body.naked_thin_east",
+      "groupId": "body.naked_thin",
+      "name": "瘦弱身体模板",
+      "aliases": [
+        "瘦体",
+        "thin body"
+      ],
+      "category": "body",
+      "role": "template",
+      "direction": "east",
+      "bodyType": "Thin",
+      "file": "references/images/body/Naked_Thin_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "BodyTypeDef",
+        "defName": "Thin",
+        "definitionFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "textureFieldFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "texturePath": "Things/Pawn/Humanlike/Bodies/Naked_Thin",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "bodyNakedGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "模板边界约束优先；加粗应限制在明确的占位模板内。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        42,
+        44,
+        77,
+        108
+      ],
+      "transparentFraction": 0.9063,
+      "paletteSamples": [
+        "#101010",
+        "#f0f0f0",
+        "#d0d0d0",
+        "#b0b0b0",
+        "#505050"
+      ],
+      "sha256": "c20ecebc1e22ee4f71924f1d4d62d0e5cb664c1c5d3585388969a63af5bc6b27"
+    },
+    {
+      "id": "body.naked_fat_south",
+      "groupId": "body.naked_fat",
+      "name": "肥胖身体模板",
+      "aliases": [
+        "胖体",
+        "fat body"
+      ],
+      "category": "body",
+      "role": "template",
+      "direction": "south",
+      "bodyType": "Fat",
+      "file": "references/images/body/Naked_Fat_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "BodyTypeDef",
+        "defName": "Fat",
+        "definitionFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "textureFieldFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "texturePath": "Things/Pawn/Humanlike/Bodies/Naked_Fat",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "bodyNakedGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "模板边界约束优先；加粗应限制在明确的占位模板内。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        23,
+        38,
+        103,
+        113
+      ],
+      "transparentFraction": 0.7014,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#101010",
+        "#d0d0d0",
+        "#505050",
+        "#b0b0b0"
+      ],
+      "sha256": "43401bf99c1a7250e6cf7d3fb6066c199e5fcc001d18d5899f418fa93701a8cf"
+    },
+    {
+      "id": "body.naked_fat_north",
+      "groupId": "body.naked_fat",
+      "name": "肥胖身体模板",
+      "aliases": [
+        "胖体",
+        "fat body"
+      ],
+      "category": "body",
+      "role": "template",
+      "direction": "north",
+      "bodyType": "Fat",
+      "file": "references/images/body/Naked_Fat_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "BodyTypeDef",
+        "defName": "Fat",
+        "definitionFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "textureFieldFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "texturePath": "Things/Pawn/Humanlike/Bodies/Naked_Fat",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "bodyNakedGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "模板边界约束优先；加粗应限制在明确的占位模板内。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        24,
+        38,
+        104,
+        113
+      ],
+      "transparentFraction": 0.7012,
+      "paletteSamples": [
+        "#b0b0b0",
+        "#d0d0d0",
+        "#101010",
+        "#d0f0d0",
+        "#f0f0f0"
+      ],
+      "sha256": "8938c430b56d79273e3e747b2cc046210d446cd69a22c5730954efff4f725510"
+    },
+    {
+      "id": "body.naked_fat_east",
+      "groupId": "body.naked_fat",
+      "name": "肥胖身体模板",
+      "aliases": [
+        "胖体",
+        "fat body"
+      ],
+      "category": "body",
+      "role": "template",
+      "direction": "east",
+      "bodyType": "Fat",
+      "file": "references/images/body/Naked_Fat_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "BodyTypeDef",
+        "defName": "Fat",
+        "definitionFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "textureFieldFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "texturePath": "Things/Pawn/Humanlike/Bodies/Naked_Fat",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "bodyNakedGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "模板边界约束优先；加粗应限制在明确的占位模板内。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        22,
+        38,
+        100,
+        115
+      ],
+      "transparentFraction": 0.7052,
+      "paletteSamples": [
+        "#d0d0d0",
+        "#f0f0f0",
+        "#101010",
+        "#505050",
+        "#b0b0b0"
+      ],
+      "sha256": "6015b59ecaa1880b7129914ca45f5bf99eafb039a7badb0991fff20dda96cfa3"
+    },
+    {
+      "id": "body.naked_hulk_south",
+      "groupId": "body.naked_hulk",
+      "name": "壮硕身体模板",
+      "aliases": [
+        "壮汉",
+        "hulk body"
+      ],
+      "category": "body",
+      "role": "template",
+      "direction": "south",
+      "bodyType": "Hulk",
+      "file": "references/images/body/Naked_Hulk_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "BodyTypeDef",
+        "defName": "Hulk",
+        "definitionFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "textureFieldFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "texturePath": "Things/Pawn/Humanlike/Bodies/Naked_Hulk",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "bodyNakedGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "模板边界约束优先；加粗应限制在明确的占位模板内。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        25,
+        32,
+        102,
+        127
+      ],
+      "transparentFraction": 0.678,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#101010",
+        "#d0d0d0",
+        "#505050",
+        "#909090"
+      ],
+      "sha256": "7dcf5f8bfb7981a201be909b07399f5a01578741a0f2e9b5f63d96fbffe4a4c2"
+    },
+    {
+      "id": "body.naked_hulk_north",
+      "groupId": "body.naked_hulk",
+      "name": "壮硕身体模板",
+      "aliases": [
+        "壮汉",
+        "hulk body"
+      ],
+      "category": "body",
+      "role": "template",
+      "direction": "north",
+      "bodyType": "Hulk",
+      "file": "references/images/body/Naked_Hulk_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "BodyTypeDef",
+        "defName": "Hulk",
+        "definitionFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "textureFieldFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "texturePath": "Things/Pawn/Humanlike/Bodies/Naked_Hulk",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "bodyNakedGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "模板边界约束优先；加粗应限制在明确的占位模板内。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        25,
+        32,
+        102,
+        127
+      ],
+      "transparentFraction": 0.678,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#101010",
+        "#d0d0d0",
+        "#505050",
+        "#909090"
+      ],
+      "sha256": "2637749fb49e8ecf1ad3ac3a89d436b85f0525847ea04ec7c327795b78ae4d5e"
+    },
+    {
+      "id": "body.naked_hulk_east",
+      "groupId": "body.naked_hulk",
+      "name": "壮硕身体模板",
+      "aliases": [
+        "壮汉",
+        "hulk body"
+      ],
+      "category": "body",
+      "role": "template",
+      "direction": "east",
+      "bodyType": "Hulk",
+      "file": "references/images/body/Naked_Hulk_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "BodyTypeDef",
+        "defName": "Hulk",
+        "definitionFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "textureFieldFile": "Core/Defs/Misc/BodyTypeDefs/BodyTypes.xml",
+        "texturePath": "Things/Pawn/Humanlike/Bodies/Naked_Hulk",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "bodyNakedGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "模板边界约束优先；加粗应限制在明确的占位模板内。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        27,
+        36,
+        95,
+        125
+      ],
+      "transparentFraction": 0.7224,
+      "paletteSamples": [
+        "#d0d0d0",
+        "#f0f0f0",
+        "#101010",
+        "#505050",
+        "#b0b0b0"
+      ],
+      "sha256": "8ad9b104dce3fba0a2c0010ee297060325773e771f63c7e5ea49eb06f2251fe6"
+    },
+    {
+      "id": "apparel.shirtbasic_male_south",
+      "groupId": "apparel.shirtbasic_male",
+      "name": "男性衬衫",
+      "aliases": [
+        "男衬衫",
+        "衬衫",
+        "shirt male"
+      ],
+      "category": "apparel",
+      "role": "main",
+      "direction": "south",
+      "bodyType": "Male",
+      "file": "references/images/apparel/ShirtBasic_Male_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Apparel_BasicShirt",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "texturePath": "Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "apparel/wornGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "服装外轮廓通常较强，但领口和内线不能被加粗填满；占位模板限制优先。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        38,
+        43,
+        90,
+        108
+      ],
+      "transparentFraction": 0.8466,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#101010",
+        "#d0d0d0",
+        "#909090",
+        "#505050"
+      ],
+      "sha256": "301a6683076352ea10a91c60e893bcae48681686d640dc1e98f55c79846c877f"
+    },
+    {
+      "id": "apparel.shirtbasic_male_north",
+      "groupId": "apparel.shirtbasic_male",
+      "name": "男性衬衫",
+      "aliases": [
+        "男衬衫",
+        "衬衫",
+        "shirt male"
+      ],
+      "category": "apparel",
+      "role": "main",
+      "direction": "north",
+      "bodyType": "Male",
+      "file": "references/images/apparel/ShirtBasic_Male_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Apparel_BasicShirt",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "texturePath": "Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "apparel/wornGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "服装外轮廓通常较强，但领口和内线不能被加粗填满；占位模板限制优先。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        38,
+        43,
+        90,
+        108
+      ],
+      "transparentFraction": 0.8286,
+      "paletteSamples": [
+        "#d0d0d0",
+        "#f0f0f0",
+        "#101010",
+        "#b0b0b0",
+        "#505050"
+      ],
+      "sha256": "3a46f268a47bab0fbddf7fea2a79f1baf2e34f5742995665c6b30d52f6b296b3"
+    },
+    {
+      "id": "apparel.shirtbasic_male_east",
+      "groupId": "apparel.shirtbasic_male",
+      "name": "男性衬衫",
+      "aliases": [
+        "男衬衫",
+        "衬衫",
+        "shirt male"
+      ],
+      "category": "apparel",
+      "role": "main",
+      "direction": "east",
+      "bodyType": "Male",
+      "file": "references/images/apparel/ShirtBasic_Male_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Apparel_BasicShirt",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "texturePath": "Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "apparel/wornGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "服装外轮廓通常较强，但领口和内线不能被加粗填满；占位模板限制优先。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        42,
+        43,
+        86,
+        107
+      ],
+      "transparentFraction": 0.8747,
+      "paletteSamples": [
+        "#d0d0d0",
+        "#f0f0f0",
+        "#101010",
+        "#505050",
+        "#d0f0d0"
+      ],
+      "sha256": "c7f1062c41694e6ec9847a983c569878c5dc77389cb54c533b1b431c0d3ba3c5"
+    },
+    {
+      "id": "apparel.shirtbasic_female_south",
+      "groupId": "apparel.shirtbasic_female",
+      "name": "女性衬衫",
+      "aliases": [
+        "女衬衫",
+        "衬衫",
+        "shirt female"
+      ],
+      "category": "apparel",
+      "role": "main",
+      "direction": "south",
+      "bodyType": "Female",
+      "file": "references/images/apparel/ShirtBasic_Female_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Apparel_BasicShirt",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "texturePath": "Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "apparel/wornGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "服装外轮廓通常较强，但领口和内线不能被加粗填满；占位模板限制优先。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        40,
+        38,
+        88,
+        113
+      ],
+      "transparentFraction": 0.8503,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#101010",
+        "#d0d0d0",
+        "#909090",
+        "#505050"
+      ],
+      "sha256": "33d7e2799c113c623dc73f1b3c8407535a607ce90e43adef40292245439b1f7e"
+    },
+    {
+      "id": "apparel.shirtbasic_female_north",
+      "groupId": "apparel.shirtbasic_female",
+      "name": "女性衬衫",
+      "aliases": [
+        "女衬衫",
+        "衬衫",
+        "shirt female"
+      ],
+      "category": "apparel",
+      "role": "main",
+      "direction": "north",
+      "bodyType": "Female",
+      "file": "references/images/apparel/ShirtBasic_Female_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Apparel_BasicShirt",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "texturePath": "Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "apparel/wornGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "服装外轮廓通常较强，但领口和内线不能被加粗填满；占位模板限制优先。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        40,
+        38,
+        88,
+        113
+      ],
+      "transparentFraction": 0.8365,
+      "paletteSamples": [
+        "#d0d0d0",
+        "#101010",
+        "#f0f0f0",
+        "#505050",
+        "#909090"
+      ],
+      "sha256": "97fa5528d730db2d07eea2f756a7067b98aba56590df24067b8ccb80d46e79a3"
+    },
+    {
+      "id": "apparel.shirtbasic_female_east",
+      "groupId": "apparel.shirtbasic_female",
+      "name": "女性衬衫",
+      "aliases": [
+        "女衬衫",
+        "衬衫",
+        "shirt female"
+      ],
+      "category": "apparel",
+      "role": "main",
+      "direction": "east",
+      "bodyType": "Female",
+      "file": "references/images/apparel/ShirtBasic_Female_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Apparel_BasicShirt",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "texturePath": "Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "apparel/wornGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "服装外轮廓通常较强，但领口和内线不能被加粗填满；占位模板限制优先。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        36,
+        39,
+        82,
+        113
+      ],
+      "transparentFraction": 0.8652,
+      "paletteSamples": [
+        "#d0d0d0",
+        "#f0f0f0",
+        "#101010",
+        "#909090",
+        "#505050"
+      ],
+      "sha256": "18accb27277f45814b4bfc85f798638e208f35bc491a9f7b4e327c94238154ea"
+    },
+    {
+      "id": "apparel.duster_male_south",
+      "groupId": "apparel.duster_male",
+      "name": "男性防尘大衣",
+      "aliases": [
+        "风衣",
+        "大衣",
+        "duster"
+      ],
+      "category": "apparel",
+      "role": "main",
+      "direction": "south",
+      "bodyType": "Male",
+      "file": "references/images/apparel/Duster_Male_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Apparel_Duster",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "texturePath": "Things/Pawn/Humanlike/Apparel/Duster/Duster",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "apparel/wornGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "服装外轮廓通常较强，但领口和内线不能被加粗填满；占位模板限制优先。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        25,
+        39,
+        104,
+        112
+      ],
+      "transparentFraction": 0.8016,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#101010",
+        "#505050",
+        "#b0b0b0",
+        "#d0d0d0"
+      ],
+      "sha256": "5040f560e894e308a25d95a30c7be212f58ab6d4e47cd8918da0dda2dad3fd9d"
+    },
+    {
+      "id": "apparel.duster_male_north",
+      "groupId": "apparel.duster_male",
+      "name": "男性防尘大衣",
+      "aliases": [
+        "风衣",
+        "大衣",
+        "duster"
+      ],
+      "category": "apparel",
+      "role": "main",
+      "direction": "north",
+      "bodyType": "Male",
+      "file": "references/images/apparel/Duster_Male_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Apparel_Duster",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "texturePath": "Things/Pawn/Humanlike/Apparel/Duster/Duster",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "apparel/wornGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "服装外轮廓通常较强，但领口和内线不能被加粗填满；占位模板限制优先。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        25,
+        39,
+        104,
+        112
+      ],
+      "transparentFraction": 0.7444,
+      "paletteSamples": [
+        "#d0d0d0",
+        "#101010",
+        "#f0f0f0",
+        "#505050",
+        "#909090"
+      ],
+      "sha256": "d242fea51f954333b1ff334c9c45d6c3511f8f21c732a52a7cd3b2accb457c1e"
+    },
+    {
+      "id": "apparel.duster_male_east",
+      "groupId": "apparel.duster_male",
+      "name": "男性防尘大衣",
+      "aliases": [
+        "风衣",
+        "大衣",
+        "duster"
+      ],
+      "category": "apparel",
+      "role": "main",
+      "direction": "east",
+      "bodyType": "Male",
+      "file": "references/images/apparel/Duster_Male_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Apparel_Duster",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "texturePath": "Things/Pawn/Humanlike/Apparel/Duster/Duster",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "apparel/wornGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "服装外轮廓通常较强，但领口和内线不能被加粗填满；占位模板限制优先。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        34,
+        39,
+        90,
+        117
+      ],
+      "transparentFraction": 0.8273,
+      "paletteSamples": [
+        "#d0d0d0",
+        "#101010",
+        "#f0f0f0",
+        "#505050",
+        "#909090"
+      ],
+      "sha256": "3bf8c6cd503ae8fdd15e0d108df8cef1de6468a008a0da8657bcd59799a9fc8a"
+    },
+    {
+      "id": "apparel.jacket_male_south",
+      "groupId": "apparel.jacket_male",
+      "name": "男性夹克",
+      "aliases": [
+        "夹克",
+        "jacket"
+      ],
+      "category": "apparel",
+      "role": "main",
+      "direction": "south",
+      "bodyType": "Male",
+      "file": "references/images/apparel/Jacket_Male_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Apparel_Jacket",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "texturePath": "Things/Pawn/Humanlike/Apparel/Jacket/Jacket",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "apparel/wornGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "服装外轮廓通常较强，但领口和内线不能被加粗填满；占位模板限制优先。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        34,
+        39,
+        95,
+        99
+      ],
+      "transparentFraction": 0.8544,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#101010",
+        "#d0d0d0",
+        "#505050",
+        "#b0b0b0"
+      ],
+      "sha256": "d55c7a5b3f1bf7e28d364700f3f80a1f6802f401278203830ccd7f3bf17b86cc"
+    },
+    {
+      "id": "apparel.jacket_male_north",
+      "groupId": "apparel.jacket_male",
+      "name": "男性夹克",
+      "aliases": [
+        "夹克",
+        "jacket"
+      ],
+      "category": "apparel",
+      "role": "main",
+      "direction": "north",
+      "bodyType": "Male",
+      "file": "references/images/apparel/Jacket_Male_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Apparel_Jacket",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "texturePath": "Things/Pawn/Humanlike/Apparel/Jacket/Jacket",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "apparel/wornGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "服装外轮廓通常较强，但领口和内线不能被加粗填满；占位模板限制优先。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        34,
+        39,
+        95,
+        98
+      ],
+      "transparentFraction": 0.8119,
+      "paletteSamples": [
+        "#b0b0b0",
+        "#101010",
+        "#d0d0d0",
+        "#707070",
+        "#303030"
+      ],
+      "sha256": "f6511e30fb9bf8bdc099d82dec4d14b4c9cac3efdb6032628b180d9ace5fc509"
+    },
+    {
+      "id": "apparel.jacket_male_east",
+      "groupId": "apparel.jacket_male",
+      "name": "男性夹克",
+      "aliases": [
+        "夹克",
+        "jacket"
+      ],
+      "category": "apparel",
+      "role": "main",
+      "direction": "east",
+      "bodyType": "Male",
+      "file": "references/images/apparel/Jacket_Male_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Apparel_Jacket",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "texturePath": "Things/Pawn/Humanlike/Apparel/Jacket/Jacket",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "apparel/wornGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "服装外轮廓通常较强，但领口和内线不能被加粗填满；占位模板限制优先。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        39,
+        39,
+        90,
+        101
+      ],
+      "transparentFraction": 0.8668,
+      "paletteSamples": [
+        "#b0b0b0",
+        "#101010",
+        "#f0f0f0",
+        "#d0d0d0",
+        "#707070"
+      ],
+      "sha256": "f93677a5beaaf3797adc8d6a42cfe4edea10c2c1ead0a4a8b32723d777e7a5d5"
+    },
+    {
+      "id": "apparel.flakvest_male_south",
+      "groupId": "apparel.flakvest_male",
+      "name": "男性防弹背心",
+      "aliases": [
+        "防弹衣",
+        "背心",
+        "flak vest"
+      ],
+      "category": "apparel",
+      "role": "main",
+      "direction": "south",
+      "bodyType": "Male",
+      "file": "references/images/apparel/FlakVest_Male_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Apparel_FlakVest",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "texturePath": "Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "apparel/wornGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "服装外轮廓通常较强，但领口和内线不能被加粗填满；占位模板限制优先。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        41,
+        45,
+        86,
+        96
+      ],
+      "transparentFraction": 0.9173,
+      "paletteSamples": [
+        "#101010",
+        "#f0f0f0",
+        "#505050",
+        "#b0b0b0",
+        "#303030"
+      ],
+      "sha256": "6a45892280444993f87fb79b6581bc9501a80cb169dc2b89b80454c0fe8108b1"
+    },
+    {
+      "id": "apparel.flakvest_male_north",
+      "groupId": "apparel.flakvest_male",
+      "name": "男性防弹背心",
+      "aliases": [
+        "防弹衣",
+        "背心",
+        "flak vest"
+      ],
+      "category": "apparel",
+      "role": "main",
+      "direction": "north",
+      "bodyType": "Male",
+      "file": "references/images/apparel/FlakVest_Male_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Apparel_FlakVest",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "texturePath": "Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "apparel/wornGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "服装外轮廓通常较强，但领口和内线不能被加粗填满；占位模板限制优先。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        41,
+        43,
+        86,
+        93
+      ],
+      "transparentFraction": 0.9161,
+      "paletteSamples": [
+        "#101010",
+        "#f0f0f0",
+        "#505050",
+        "#b0b0b0",
+        "#707070"
+      ],
+      "sha256": "be900e1ac6dd12ad8ae6f4b0c934213886a8076b0ea6ce98a8ba87171f4104a3"
+    },
+    {
+      "id": "apparel.flakvest_male_east",
+      "groupId": "apparel.flakvest_male",
+      "name": "男性防弹背心",
+      "aliases": [
+        "防弹衣",
+        "背心",
+        "flak vest"
+      ],
+      "category": "apparel",
+      "role": "main",
+      "direction": "east",
+      "bodyType": "Male",
+      "file": "references/images/apparel/FlakVest_Male_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Apparel_FlakVest",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "texturePath": "Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "apparel/wornGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "服装外轮廓通常较强，但领口和内线不能被加粗填满；占位模板限制优先。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        41,
+        46,
+        84,
+        95
+      ],
+      "transparentFraction": 0.9263,
+      "paletteSamples": [
+        "#101010",
+        "#f0f0f0",
+        "#505050",
+        "#909090",
+        "#d0d0d0"
+      ],
+      "sha256": "a5a163e3e646e8a02092df051547df2c5c8cfb814d01e709d0cfe0d59db0a949"
+    },
+    {
+      "id": "apparel.parka_male_south",
+      "groupId": "apparel.parka_male",
+      "name": "男性防寒服",
+      "aliases": [
+        "防寒服",
+        "棉衣",
+        "parka"
+      ],
+      "category": "apparel",
+      "role": "main",
+      "direction": "south",
+      "bodyType": "Male",
+      "file": "references/images/apparel/Parka_Male_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Apparel_Parka",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "texturePath": "Things/Pawn/Humanlike/Apparel/Parka/Parka",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "apparel/wornGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "服装外轮廓通常较强，但领口和内线不能被加粗填满；占位模板限制优先。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        34,
+        39,
+        96,
+        110
+      ],
+      "transparentFraction": 0.7792,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#101010",
+        "#d0d0d0",
+        "#505050",
+        "#707070"
+      ],
+      "sha256": "788a2abce86636760a3abec95442bac6cccf86bd1956607b6901a4caf8b0ec0c"
+    },
+    {
+      "id": "apparel.parka_male_north",
+      "groupId": "apparel.parka_male",
+      "name": "男性防寒服",
+      "aliases": [
+        "防寒服",
+        "棉衣",
+        "parka"
+      ],
+      "category": "apparel",
+      "role": "main",
+      "direction": "north",
+      "bodyType": "Male",
+      "file": "references/images/apparel/Parka_Male_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Apparel_Parka",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "texturePath": "Things/Pawn/Humanlike/Apparel/Parka/Parka",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "apparel/wornGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "服装外轮廓通常较强，但领口和内线不能被加粗填满；占位模板限制优先。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        34,
+        39,
+        95,
+        108
+      ],
+      "transparentFraction": 0.7675,
+      "paletteSamples": [
+        "#b0b0b0",
+        "#101010",
+        "#d0d0d0",
+        "#505050",
+        "#707070"
+      ],
+      "sha256": "4858027d52bfb70b3114680b0ac3b70f8746b04607bfa13cdc70b614d9affd35"
+    },
+    {
+      "id": "apparel.parka_male_east",
+      "groupId": "apparel.parka_male",
+      "name": "男性防寒服",
+      "aliases": [
+        "防寒服",
+        "棉衣",
+        "parka"
+      ],
+      "category": "apparel",
+      "role": "main",
+      "direction": "east",
+      "bodyType": "Male",
+      "file": "references/images/apparel/Parka_Male_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Apparel_Parka",
+        "definitionFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Misc/Apparel_Various.xml",
+        "texturePath": "Things/Pawn/Humanlike/Apparel/Parka/Parka",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "apparel/wornGraphicPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "服装外轮廓通常较强，但领口和内线不能被加粗填满；占位模板限制优先。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        35,
+        39,
+        90,
+        110
+      ],
+      "transparentFraction": 0.8397,
+      "paletteSamples": [
+        "#b0b0b0",
+        "#101010",
+        "#f0f0f0",
+        "#d0d0d0",
+        "#303030"
+      ],
+      "sha256": "ee3605f89c56f01f07e2e231805ebbeb8c0801316802552bc7393b8f97a97ae0"
+    },
+    {
+      "id": "hair.bob_south",
+      "groupId": "hair.bob",
+      "name": "波波头",
+      "aliases": [
+        "短发",
+        "bob hair"
+      ],
+      "category": "hair",
+      "role": "main",
+      "direction": "south",
+      "bodyType": null,
+      "file": "references/images/hair/Bob_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "HairDef",
+        "defName": "Bob",
+        "definitionFile": "Core/Defs/Misc/HairDefs/HairsGeneral.xml",
+        "textureFieldFile": "Core/Defs/Misc/HairDefs/HairsGeneral.xml",
+        "texturePath": "Things/Pawn/Humanlike/Hairs/Bob",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "texPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "避免发梢在缩小后黏连；模板占位不应随加粗改变。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        37,
+        34,
+        91,
+        80
+      ],
+      "transparentFraction": 0.8956,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#101010",
+        "#d0d0d0",
+        "#b0b0b0",
+        "#505050"
+      ],
+      "sha256": "42ada70a6c041e1f1c77a1b98a02c629305abbdbc3776861c68c17167ca31b51"
+    },
+    {
+      "id": "hair.bob_north",
+      "groupId": "hair.bob",
+      "name": "波波头",
+      "aliases": [
+        "短发",
+        "bob hair"
+      ],
+      "category": "hair",
+      "role": "main",
+      "direction": "north",
+      "bodyType": null,
+      "file": "references/images/hair/Bob_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "HairDef",
+        "defName": "Bob",
+        "definitionFile": "Core/Defs/Misc/HairDefs/HairsGeneral.xml",
+        "textureFieldFile": "Core/Defs/Misc/HairDefs/HairsGeneral.xml",
+        "texturePath": "Things/Pawn/Humanlike/Hairs/Bob",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "texPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "避免发梢在缩小后黏连；模板占位不应随加粗改变。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        37,
+        36,
+        91,
+        80
+      ],
+      "transparentFraction": 0.8797,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#b0b0b0",
+        "#101010",
+        "#d0d0d0",
+        "#505050"
+      ],
+      "sha256": "a3a1a2cc8338e1095f881f52949f2e62ed36262306abe969336cc8b76852814d"
+    },
+    {
+      "id": "hair.bob_east",
+      "groupId": "hair.bob",
+      "name": "波波头",
+      "aliases": [
+        "短发",
+        "bob hair"
+      ],
+      "category": "hair",
+      "role": "main",
+      "direction": "east",
+      "bodyType": null,
+      "file": "references/images/hair/Bob_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "HairDef",
+        "defName": "Bob",
+        "definitionFile": "Core/Defs/Misc/HairDefs/HairsGeneral.xml",
+        "textureFieldFile": "Core/Defs/Misc/HairDefs/HairsGeneral.xml",
+        "texturePath": "Things/Pawn/Humanlike/Hairs/Bob",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "texPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "避免发梢在缩小后黏连；模板占位不应随加粗改变。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        32,
+        33,
+        91,
+        89
+      ],
+      "transparentFraction": 0.8759,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#101010",
+        "#d0d0d0",
+        "#b0b0b0",
+        "#505050"
+      ],
+      "sha256": "ca52cf91201f7efc1c5902356264422d06f0148536a34e619bfa1f52472d2656"
+    },
+    {
+      "id": "hair.ponytails_south",
+      "groupId": "hair.ponytails",
+      "name": "双马尾",
+      "aliases": [
+        "马尾",
+        "ponytails"
+      ],
+      "category": "hair",
+      "role": "main",
+      "direction": "south",
+      "bodyType": null,
+      "file": "references/images/hair/Ponytails_south.png",
+      "source": {
+        "module": "Core",
+        "defType": "HairDef",
+        "defName": "Ponytails",
+        "definitionFile": "Core/Defs/Misc/HairDefs/HairsGeneral.xml",
+        "textureFieldFile": "Core/Defs/Misc/HairDefs/HairsGeneral.xml",
+        "texturePath": "Things/Pawn/Humanlike/Hairs/Ponytails",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "texPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "避免发梢在缩小后黏连；模板占位不应随加粗改变。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        18,
+        30,
+        110,
+        85
+      ],
+      "transparentFraction": 0.7784,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#101010",
+        "#d0d0d0",
+        "#b0b0b0",
+        "#505050"
+      ],
+      "sha256": "f38bd986f486dd83b42bb9ad16b94ec3d09a9a32833935db826a802206ac6ea4"
+    },
+    {
+      "id": "hair.ponytails_north",
+      "groupId": "hair.ponytails",
+      "name": "双马尾",
+      "aliases": [
+        "马尾",
+        "ponytails"
+      ],
+      "category": "hair",
+      "role": "main",
+      "direction": "north",
+      "bodyType": null,
+      "file": "references/images/hair/Ponytails_north.png",
+      "source": {
+        "module": "Core",
+        "defType": "HairDef",
+        "defName": "Ponytails",
+        "definitionFile": "Core/Defs/Misc/HairDefs/HairsGeneral.xml",
+        "textureFieldFile": "Core/Defs/Misc/HairDefs/HairsGeneral.xml",
+        "texturePath": "Things/Pawn/Humanlike/Hairs/Ponytails",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "texPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "避免发梢在缩小后黏连；模板占位不应随加粗改变。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        19,
+        30,
+        110,
+        85
+      ],
+      "transparentFraction": 0.7479,
+      "paletteSamples": [
+        "#b0b0b0",
+        "#101010",
+        "#d0d0d0",
+        "#f0f0f0",
+        "#707070"
+      ],
+      "sha256": "f5502571dc79e44e5f0fd8d03fa71ec3be9b3b2c0bc153a83f2ea13e7e51477f"
+    },
+    {
+      "id": "hair.ponytails_east",
+      "groupId": "hair.ponytails",
+      "name": "双马尾",
+      "aliases": [
+        "马尾",
+        "ponytails"
+      ],
+      "category": "hair",
+      "role": "main",
+      "direction": "east",
+      "bodyType": null,
+      "file": "references/images/hair/Ponytails_east.png",
+      "source": {
+        "module": "Core",
+        "defType": "HairDef",
+        "defName": "Ponytails",
+        "definitionFile": "Core/Defs/Misc/HairDefs/HairsGeneral.xml",
+        "textureFieldFile": "Core/Defs/Misc/HairDefs/HairsGeneral.xml",
+        "texturePath": "Things/Pawn/Humanlike/Hairs/Ponytails",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "texPath；主物品 graphicData 不适用于此穿戴/身体/头发层",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "避免发梢在缩小后黏连；模板占位不应随加粗改变。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        20,
+        34,
+        90,
+        94
+      ],
+      "transparentFraction": 0.8311,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#101010",
+        "#d0d0d0",
+        "#b0b0b0",
+        "#505050"
+      ],
+      "sha256": "560ac2549d3c2b12a7bcb2450f02f1f7e2c83aeabda7d4092bb2f43f968fc949"
+    },
+    {
+      "id": "plant.cornplanta",
+      "groupId": "plant.cornplanta",
+      "name": "玉米植株",
+      "aliases": [
+        "玉米",
+        "corn plant"
+      ],
+      "category": "plant",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/plant/CornPlantA.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Plant_Corn",
+        "definitionFile": "Core/Defs/ThingDefs_Plants/Plants_Cultivated_Farm.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Plants/Plants_Cultivated_Farm.xml",
+        "texturePath": "Things/Plant/CornPlant",
+        "graphicClass": "Graphic_Random",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "优先保留参考的有色边缘；细叶片不宜额外加粗。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        15,
+        0,
+        50,
+        64
+      ],
+      "transparentFraction": 0.7378,
+      "paletteSamples": [
+        "#507030",
+        "#509030",
+        "#303030",
+        "#305030",
+        "#509050"
+      ],
+      "sha256": "eaf60d43d28fb11b196cdad0ba3eda143f0b1eaca4ad51aebe5080752c73eee3"
+    },
+    {
+      "id": "plant.cornplantb",
+      "groupId": "plant.cornplanta",
+      "name": "玉米植株",
+      "aliases": [
+        "玉米",
+        "corn plant"
+      ],
+      "category": "plant",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/plant/CornPlantB.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Plant_Corn",
+        "definitionFile": "Core/Defs/ThingDefs_Plants/Plants_Cultivated_Farm.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Plants/Plants_Cultivated_Farm.xml",
+        "texturePath": "Things/Plant/CornPlant",
+        "graphicClass": "Graphic_Random",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "优先保留参考的有色边缘；细叶片不宜额外加粗。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        12,
+        0,
+        48,
+        64
+      ],
+      "transparentFraction": 0.7271,
+      "paletteSamples": [
+        "#507030",
+        "#303010",
+        "#707030",
+        "#509030",
+        "#303030"
+      ],
+      "sha256": "aaca6119db101a2d4143f1e5b3fe62188f6c9e9889029426a8dfda7bed1bec82"
+    },
+    {
+      "id": "plant.potatoplant",
+      "groupId": "plant.potatoplant",
+      "name": "土豆植株",
+      "aliases": [
+        "马铃薯",
+        "土豆",
+        "potato plant"
+      ],
+      "category": "plant",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/plant/PotatoPlant.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Plant_Potato",
+        "definitionFile": "Core/Defs/ThingDefs_Plants/Plants_Cultivated_Farm.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Plants/Plants_Cultivated_Farm.xml",
+        "texturePath": "Things/Plant/PotatoPlant",
+        "graphicClass": "Graphic_Random",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "优先保留参考的有色边缘；细叶片不宜额外加粗。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "transparentFraction": 0.2256,
+      "paletteSamples": [
+        "#507030",
+        "#305030",
+        "#307030",
+        "#303030",
+        "#509030"
+      ],
+      "sha256": "fbf9d81531574fec61a127b5ba1f2f7917aca21a482f816840e41c717c0958eb"
+    },
+    {
+      "id": "plant.riceplanta",
+      "groupId": "plant.riceplanta",
+      "name": "水稻植株",
+      "aliases": [
+        "水稻",
+        "稻米",
+        "rice plant"
+      ],
+      "category": "plant",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/plant/RicePlantA.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Plant_Rice",
+        "definitionFile": "Core/Defs/ThingDefs_Plants/Plants_Cultivated_Farm.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Plants/Plants_Cultivated_Farm.xml",
+        "texturePath": "Things/Plant/RicePlant",
+        "graphicClass": "Graphic_Random",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "优先保留参考的有色边缘；细叶片不宜额外加粗。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        0,
+        2,
+        64,
+        64
+      ],
+      "transparentFraction": 0.2786,
+      "paletteSamples": [
+        "#709030",
+        "#303030",
+        "#307030",
+        "#509050",
+        "#507030"
+      ],
+      "sha256": "4f5846560184cf51a65bfc1d42312bd604162d481711be0aa638ec5912ede865"
+    },
+    {
+      "id": "plant.healroota",
+      "groupId": "plant.healroota",
+      "name": "药根植株",
+      "aliases": [
+        "药根",
+        "healroot"
+      ],
+      "category": "plant",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/plant/HealrootA.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Plant_Healroot",
+        "definitionFile": "Core/Defs/ThingDefs_Plants/Plants_Cultivated_Farm.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Plants/Plants_Cultivated_Farm.xml",
+        "texturePath": "Things/Plant/Healroot",
+        "graphicClass": "Graphic_Random",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "优先保留参考的有色边缘；细叶片不宜额外加粗。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        3,
+        8,
+        62,
+        60
+      ],
+      "transparentFraction": 0.47,
+      "paletteSamples": [
+        "#303030",
+        "#305030",
+        "#305050",
+        "#103010",
+        "#103030"
+      ],
+      "sha256": "444c750a32389a512d65b8467d97a3a884159962a0137a0d370549665c330b77"
+    },
+    {
+      "id": "plant.treeoaka",
+      "groupId": "plant.treeoaka",
+      "name": "橡树",
+      "aliases": [
+        "阔叶树",
+        "oak tree"
+      ],
+      "category": "plant",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/plant/TreeOakA.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Plant_TreeOak",
+        "definitionFile": "Core/Defs/ThingDefs_Plants/Plants_Wild_Temperate.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Plants/Plants_Wild_Temperate.xml",
+        "texturePath": "Things/Plant/TreeOak",
+        "graphicClass": "Graphic_Random",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "优先保留参考的有色边缘；细叶片不宜额外加粗。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        6,
+        0,
+        115,
+        124
+      ],
+      "transparentFraction": 0.5529,
+      "paletteSamples": [
+        "#505030",
+        "#707030",
+        "#507030",
+        "#503010",
+        "#303010"
+      ],
+      "sha256": "061736575ebe21c3c271e7c8fba5b56889484216bb2237d1f954e14d676f8461"
+    },
+    {
+      "id": "plant.treeoakb",
+      "groupId": "plant.treeoaka",
+      "name": "橡树",
+      "aliases": [
+        "阔叶树",
+        "oak tree"
+      ],
+      "category": "plant",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/plant/TreeOakB.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Plant_TreeOak",
+        "definitionFile": "Core/Defs/ThingDefs_Plants/Plants_Wild_Temperate.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Plants/Plants_Wild_Temperate.xml",
+        "texturePath": "Things/Plant/TreeOak",
+        "graphicClass": "Graphic_Random",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "优先保留参考的有色边缘；细叶片不宜额外加粗。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        2,
+        1,
+        124,
+        125
+      ],
+      "transparentFraction": 0.4621,
+      "paletteSamples": [
+        "#505030",
+        "#707030",
+        "#507030",
+        "#503010",
+        "#303010"
+      ],
+      "sha256": "6f0b47c13af8f78e537df0f87e1bf3476f5a9ab23e01499faa3f55992647e7b4"
+    },
+    {
+      "id": "plant.treepinea",
+      "groupId": "plant.treepinea",
+      "name": "松树",
+      "aliases": [
+        "针叶树",
+        "pine tree"
+      ],
+      "category": "plant",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/plant/TreePineA.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Plant_TreePine",
+        "definitionFile": "Core/Defs/ThingDefs_Plants/Plants_Wild_Temperate.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Plants/Plants_Wild_Temperate.xml",
+        "texturePath": "Things/Plant/TreePine",
+        "graphicClass": "Graphic_Random",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "优先保留参考的有色边缘；细叶片不宜额外加粗。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        25,
+        0,
+        103,
+        123
+      ],
+      "transparentFraction": 0.7066,
+      "paletteSamples": [
+        "#305030",
+        "#505030",
+        "#303030",
+        "#303010",
+        "#507030"
+      ],
+      "sha256": "c1856a144dde61cbff8abd1c09c9a5d771a83ce5b3e313c179c8437d6d8cb77a"
+    },
+    {
+      "id": "plant.treebircha",
+      "groupId": "plant.treebircha",
+      "name": "桦树",
+      "aliases": [
+        "白桦",
+        "birch tree"
+      ],
+      "category": "plant",
+      "role": "main",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/plant/TreeBirchA.png",
+      "source": {
+        "module": "Core",
+        "defType": "ThingDef",
+        "defName": "Plant_TreeBirch",
+        "definitionFile": "Core/Defs/ThingDefs_Plants/Plants_Wild_Temperate.xml",
+        "textureFieldFile": "Core/Defs/ThingDefs_Plants/Plants_Wild_Temperate.xml",
+        "texturePath": "Things/Plant/TreeBirch",
+        "graphicClass": "Graphic_Random",
+        "drawSize": null,
+        "usage": "graphicData/texPath",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "优先保留参考的有色边缘；细叶片不宜额外加粗。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        13,
+        3,
+        108,
+        124
+      ],
+      "transparentFraction": 0.6176,
+      "paletteSamples": [
+        "#505010",
+        "#707030",
+        "#507030",
+        "#505030",
+        "#303010"
+      ],
+      "sha256": "1866b5da07ad7862a0ce5853d29be6d5354c9b79a14b1abc31ad39d0316b1f95"
+    },
+    {
+      "id": "ui.draft",
+      "groupId": "ui.draft",
+      "name": "征召图标",
+      "aliases": [
+        "征召",
+        "draft"
+      ],
+      "category": "ui",
+      "role": "ui",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/ui/Draft.png",
+      "source": {
+        "module": "Core",
+        "defType": null,
+        "defName": null,
+        "definitionFile": "RimWorld/TexCommand.cs",
+        "line": 11,
+        "texturePath": "UI/Commands/Draft",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "源码中的 UI 资源常量",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "UI 可能没有黑色外轮廓，不自动套用地图贴图描边。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        1,
+        5,
+        127,
+        122
+      ],
+      "transparentFraction": 0.5169,
+      "paletteSamples": [
+        "#b0b090",
+        "#101010",
+        "#b09090",
+        "#303030",
+        "#707070"
+      ],
+      "sha256": "0e1681680570d4c5d5c684e551cac705808ef0abf8f546ed7af21b1f7edac25e"
+    },
+    {
+      "id": "ui.fireatwill",
+      "groupId": "ui.fireatwill",
+      "name": "自由开火图标",
+      "aliases": [
+        "开火",
+        "fire at will"
+      ],
+      "category": "ui",
+      "role": "ui",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/ui/FireAtWill.png",
+      "source": {
+        "module": "Core",
+        "defType": null,
+        "defName": null,
+        "definitionFile": "RimWorld/TexCommand.cs",
+        "line": 29,
+        "texturePath": "UI/Commands/FireAtWill",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "源码中的 UI 资源常量",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "UI 可能没有黑色外轮廓，不自动套用地图贴图描边。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        4,
+        16,
+        122,
+        103
+      ],
+      "transparentFraction": 0.7203,
+      "paletteSamples": [
+        "#f0f0b0",
+        "#101010",
+        "#f0d070",
+        "#707070",
+        "#909090"
+      ],
+      "sha256": "31ff1fc2ba8f91d3b1736067f42dd1e4261546fbefd8c4b46740dee2739a7359"
+    },
+    {
+      "id": "ui.attack",
+      "groupId": "ui.attack",
+      "name": "攻击图标",
+      "aliases": [
+        "攻击",
+        "attack"
+      ],
+      "category": "ui",
+      "role": "ui",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/ui/Attack.png",
+      "source": {
+        "module": "Core",
+        "defType": null,
+        "defName": null,
+        "definitionFile": "RimWorld/Building_TurretGun.cs",
+        "line": 601,
+        "texturePath": "UI/Commands/Attack",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "源码中的 UI 资源常量",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "UI 可能没有黑色外轮廓，不自动套用地图贴图描边。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        7,
+        8,
+        59,
+        61
+      ],
+      "transparentFraction": 0.4487,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#101010",
+        "#b0b0b0",
+        "#505050",
+        "#d0d0d0"
+      ],
+      "sha256": "2b0790d0abd0b6bf126a62efe6c8f6c8fc5f1b77ab11138a798d1e5f631263a4"
+    },
+    {
+      "id": "ui.halt",
+      "groupId": "ui.halt",
+      "name": "停止图标",
+      "aliases": [
+        "停止",
+        "halt"
+      ],
+      "category": "ui",
+      "role": "ui",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/ui/Halt.png",
+      "source": {
+        "module": "Core",
+        "defType": null,
+        "defName": null,
+        "definitionFile": "RimWorld/Building_TurretGun.cs",
+        "line": 628,
+        "texturePath": "UI/Commands/Halt",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "源码中的 UI 资源常量",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "UI 可能没有黑色外轮廓，不自动套用地图贴图描边。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        24,
+        7,
+        112,
+        118
+      ],
+      "transparentFraction": 0.5366,
+      "paletteSamples": [
+        "#d0f0d0",
+        "#101010",
+        "#90b090",
+        "#505050",
+        "#909090"
+      ],
+      "sha256": "8b9bd24f8ebbaf4048d609b8e0885937ab09ada2efdb1463b7cf8a19accfeb7e"
+    },
+    {
+      "id": "ui.forbidon",
+      "groupId": "ui.forbidon",
+      "name": "禁止交互图标",
+      "aliases": [
+        "禁止",
+        "forbid"
+      ],
+      "category": "ui",
+      "role": "ui",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/ui/ForbidOn.png",
+      "source": {
+        "module": "Core",
+        "defType": null,
+        "defName": null,
+        "definitionFile": "RimWorld/Designator_Forbid.cs",
+        "line": 15,
+        "texturePath": "UI/Designators/ForbidOn",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "源码中的 UI 资源常量",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "UI 可能没有黑色外轮廓，不自动套用地图贴图描边。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        18,
+        15,
+        115,
+        124
+      ],
+      "transparentFraction": 0.5497,
+      "paletteSamples": [
+        "#101010",
+        "#b01030",
+        "#d0f0d0",
+        "#901030",
+        "#301010"
+      ],
+      "sha256": "92bbc5e8d557480b2f3d7965310214bd3bb755c37981a0d083633844990a2dad"
+    },
+    {
+      "id": "ui.forbidoff",
+      "groupId": "ui.forbidoff",
+      "name": "允许交互图标",
+      "aliases": [
+        "允许",
+        "unforbid"
+      ],
+      "category": "ui",
+      "role": "ui",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/ui/ForbidOff.png",
+      "source": {
+        "module": "Core",
+        "defType": null,
+        "defName": null,
+        "definitionFile": "RimWorld/Designator_Unforbid.cs",
+        "line": 15,
+        "texturePath": "UI/Designators/ForbidOff",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "源码中的 UI 资源常量",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "UI 可能没有黑色外轮廓，不自动套用地图贴图描边。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        23,
+        4,
+        114,
+        119
+      ],
+      "transparentFraction": 0.5843,
+      "paletteSamples": [
+        "#d0f0d0",
+        "#101010",
+        "#505050",
+        "#90b090",
+        "#909090"
+      ],
+      "sha256": "3ea134f0d2267d81cca45adc93eee942886eea9734ef57776114c820aad0bf26"
+    },
+    {
+      "id": "ui.deconstruct",
+      "groupId": "ui.deconstruct",
+      "name": "拆除图标",
+      "aliases": [
+        "拆除",
+        "deconstruct"
+      ],
+      "category": "ui",
+      "role": "ui",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/ui/Deconstruct.png",
+      "source": {
+        "module": "Core",
+        "defType": null,
+        "defName": null,
+        "definitionFile": "RimWorld/Designator_Deconstruct.cs",
+        "line": 17,
+        "texturePath": "UI/Designators/Deconstruct",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "源码中的 UI 资源常量",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "UI 可能没有黑色外轮廓，不自动套用地图贴图描边。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        19,
+        19,
+        113,
+        107
+      ],
+      "transparentFraction": 0.5857,
+      "paletteSamples": [
+        "#507050",
+        "#101010",
+        "#305030",
+        "#505050",
+        "#509050"
+      ],
+      "sha256": "3a8825c2210b088d1013b80aa1ff1ef337698c43437887882a0381434ea4fc83"
+    },
+    {
+      "id": "ui.cancel",
+      "groupId": "ui.cancel",
+      "name": "取消图标",
+      "aliases": [
+        "取消",
+        "cancel"
+      ],
+      "category": "ui",
+      "role": "ui",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/ui/Cancel.png",
+      "source": {
+        "module": "Core",
+        "defType": null,
+        "defName": null,
+        "definitionFile": "RimWorld/Building_GeneAssembler.cs",
+        "line": 47,
+        "texturePath": "UI/Designators/Cancel",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "源码中的 UI 资源常量",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "UI 可能没有黑色外轮廓，不自动套用地图贴图描边。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        6,
+        6,
+        121,
+        121
+      ],
+      "transparentFraction": 0.4626,
+      "paletteSamples": [
+        "#b03030",
+        "#101010",
+        "#703010",
+        "#301010",
+        "#501010"
+      ],
+      "sha256": "d3083506e196977d2b1986512a28cc14cd5790e93ea96db19f727fe9ac5a19c4"
+    },
+    {
+      "id": "ui.hunt",
+      "groupId": "ui.hunt",
+      "name": "狩猎图标",
+      "aliases": [
+        "狩猎",
+        "hunt"
+      ],
+      "category": "ui",
+      "role": "ui",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/ui/Hunt.png",
+      "source": {
+        "module": "Core",
+        "defType": null,
+        "defName": null,
+        "definitionFile": "RimWorld/Designator_Hunt.cs",
+        "line": 20,
+        "texturePath": "UI/Designators/Hunt",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "源码中的 UI 资源常量",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "UI 可能没有黑色外轮廓，不自动套用地图贴图描边。",
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true,
+      "alphaBounds": [
+        17,
+        17,
+        47,
+        47
+      ],
+      "transparentFraction": 0.8154,
+      "paletteSamples": [],
+      "sha256": "a8e6ee4c198c5fc6a78d68a69b4593e75841db8f702084c6945c8a9c7fb9fc02"
+    },
+    {
+      "id": "ui.harvest",
+      "groupId": "ui.harvest",
+      "name": "收获图标",
+      "aliases": [
+        "收获",
+        "harvest"
+      ],
+      "category": "ui",
+      "role": "ui",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/ui/Harvest.png",
+      "source": {
+        "module": "Core",
+        "defType": null,
+        "defName": null,
+        "definitionFile": "RimWorld/Designator_PlantsHarvest.cs",
+        "line": 12,
+        "texturePath": "UI/Designators/Harvest",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "源码中的 UI 资源常量",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "UI 可能没有黑色外轮廓，不自动套用地图贴图描边。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        10,
+        1,
+        116,
+        121
+      ],
+      "transparentFraction": 0.5878,
+      "paletteSamples": [
+        "#101010",
+        "#d0d0d0",
+        "#d0d090",
+        "#909090",
+        "#505050"
+      ],
+      "sha256": "f077afc248e92331b354f37f26982912c8cedb449708d55fe27ecafdf8b8cf2d"
+    },
+    {
+      "id": "ui.cutplants",
+      "groupId": "ui.cutplants",
+      "name": "砍伐图标",
+      "aliases": [
+        "砍伐",
+        "砍树",
+        "cut plants"
+      ],
+      "category": "ui",
+      "role": "ui",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/ui/CutPlants.png",
+      "source": {
+        "module": "Core",
+        "defType": null,
+        "defName": null,
+        "definitionFile": "RimWorld/Designator_PlantsCut.cs",
+        "line": 9,
+        "texturePath": "UI/Designators/CutPlants",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "源码中的 UI 资源常量",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "UI 可能没有黑色外轮廓，不自动套用地图贴图描边。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        11,
+        4,
+        123,
+        116
+      ],
+      "transparentFraction": 0.6498,
+      "paletteSamples": [
+        "#101010",
+        "#307050",
+        "#707070",
+        "#507050",
+        "#705050"
+      ],
+      "sha256": "88a87c7920af15ccd81e19659b51b93ed5eee95d82a911ff091cf07e736d1257"
+    },
+    {
+      "id": "ui.harvestwood",
+      "groupId": "ui.harvestwood",
+      "name": "采集木材图标",
+      "aliases": [
+        "采集木材",
+        "harvest wood"
+      ],
+      "category": "ui",
+      "role": "ui",
+      "direction": null,
+      "bodyType": null,
+      "file": "references/images/ui/HarvestWood.png",
+      "source": {
+        "module": "Core",
+        "defType": null,
+        "defName": null,
+        "definitionFile": "RimWorld/Designator_PlantsHarvestWood.cs",
+        "line": 35,
+        "texturePath": "UI/Designators/HarvestWood",
+        "graphicClass": null,
+        "drawSize": null,
+        "usage": "源码中的 UI 资源常量",
+        "metadataVersion": "1.6.4871 rev590",
+        "imageProvenance": "用户本地原版 Texture2D 导出；导出时游戏版本未知；已按定义和外观核对。"
+      },
+      "notes": "",
+      "outlineNotes": "UI 可能没有黑色外轮廓，不自动套用地图贴图描边。",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        18,
+        1,
+        103,
+        128
+      ],
+      "transparentFraction": 0.7386,
+      "paletteSamples": [
+        "#101010",
+        "#503010",
+        "#707070",
+        "#909090",
+        "#303010"
+      ],
+      "sha256": "eeec94618699edb39957e9adcca73d1777b0e02749efe5ed24a9a9fc1a669489"
+    }
+  ]
+}

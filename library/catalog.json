@@ -1,0 +1,1165 @@
+{
+  "schemaVersion": 1,
+  "count": 20,
+  "items": [
+    {
+      "id": "local.phoenix-body.south",
+      "groupId": "local.phoenix-body",
+      "name": "凤凰族女性身体",
+      "aliases": [
+        "凤凰族女性身体",
+        "PhoenixRace",
+        "凤凰族",
+        "Naked_Female"
+      ],
+      "tags": [
+        "二次元",
+        "种族",
+        "body",
+        "完整方向组"
+      ],
+      "category": "body",
+      "role": "template",
+      "styleFamily": "anime",
+      "race": "PhoenixRace",
+      "bodyType": "Female",
+      "direction": "south",
+      "file": "images/phoenix-body/south.png",
+      "notes": "只有身体层；以此图的肩部、腰胯、腿部占位为模板，不附加头部。",
+      "styleNotes": [
+        "优先保持本种族模板比例、原始画布及部件对齐。",
+        "轮廓和柔和明暗参考本组，不统一改为原版小人体型。"
+      ],
+      "outlineNotes": "按本组原图的轮廓宽度和颜色处理；已有粗线时不再叠加。",
+      "source": {
+        "kind": "mod",
+        "label": "PhoenixRace",
+        "author": "作者：PhoenixRace 团队",
+        "packageId": "chezhou.Race.PhoenixRace",
+        "defName": "PhoenixRace",
+        "texturePath": "AlienRace/Phoenix/body/Naked_Female",
+        "definitionFile": "1.6/Defs/AlienRace/PhoenixRace.xml",
+        "evidence": "核对本地 Mod XML 路径、PNG Alpha 和完整方向组；原图复制保留。"
+      },
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true,
+      "alphaBounds": [
+        417,
+        341,
+        607,
+        823
+      ],
+      "transparentFraction": 0.9388,
+      "paletteSamples": [
+        "#f0d0d0",
+        "#f0f0f0",
+        "#f0f0d0",
+        "#301010",
+        "#f0b0b0"
+      ],
+      "sha256": "1a98e39a9d619dfc5ecbf49dd7d2b7839d34c7c7902cf3c85dcd99721b3def90"
+    },
+    {
+      "id": "local.phoenix-body.north",
+      "groupId": "local.phoenix-body",
+      "name": "凤凰族女性身体",
+      "aliases": [
+        "凤凰族女性身体",
+        "PhoenixRace",
+        "凤凰族",
+        "Naked_Female"
+      ],
+      "tags": [
+        "二次元",
+        "种族",
+        "body",
+        "完整方向组"
+      ],
+      "category": "body",
+      "role": "template",
+      "styleFamily": "anime",
+      "race": "PhoenixRace",
+      "bodyType": "Female",
+      "direction": "north",
+      "file": "images/phoenix-body/north.png",
+      "notes": "只有身体层；以此图的肩部、腰胯、腿部占位为模板，不附加头部。",
+      "styleNotes": [
+        "优先保持本种族模板比例、原始画布及部件对齐。",
+        "轮廓和柔和明暗参考本组，不统一改为原版小人体型。"
+      ],
+      "outlineNotes": "按本组原图的轮廓宽度和颜色处理；已有粗线时不再叠加。",
+      "source": {
+        "kind": "mod",
+        "label": "PhoenixRace",
+        "author": "作者：PhoenixRace 团队",
+        "packageId": "chezhou.Race.PhoenixRace",
+        "defName": "PhoenixRace",
+        "texturePath": "AlienRace/Phoenix/body/Naked_Female",
+        "definitionFile": "1.6/Defs/AlienRace/PhoenixRace.xml",
+        "evidence": "核对本地 Mod XML 路径、PNG Alpha 和完整方向组；原图复制保留。"
+      },
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true,
+      "alphaBounds": [
+        417,
+        338,
+        608,
+        823
+      ],
+      "transparentFraction": 0.938,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#f0d0d0",
+        "#f0d0b0",
+        "#301010",
+        "#f0f0d0"
+      ],
+      "sha256": "b5ee07aecbffd6886ed2e50334efa81320fb6e3fa612d5464e1ad7b00e704eb9"
+    },
+    {
+      "id": "local.phoenix-body.east",
+      "groupId": "local.phoenix-body",
+      "name": "凤凰族女性身体",
+      "aliases": [
+        "凤凰族女性身体",
+        "PhoenixRace",
+        "凤凰族",
+        "Naked_Female"
+      ],
+      "tags": [
+        "二次元",
+        "种族",
+        "body",
+        "完整方向组"
+      ],
+      "category": "body",
+      "role": "template",
+      "styleFamily": "anime",
+      "race": "PhoenixRace",
+      "bodyType": "Female",
+      "direction": "east",
+      "file": "images/phoenix-body/east.png",
+      "notes": "只有身体层；以此图的肩部、腰胯、腿部占位为模板，不附加头部。",
+      "styleNotes": [
+        "优先保持本种族模板比例、原始画布及部件对齐。",
+        "轮廓和柔和明暗参考本组，不统一改为原版小人体型。"
+      ],
+      "outlineNotes": "按本组原图的轮廓宽度和颜色处理；已有粗线时不再叠加。",
+      "source": {
+        "kind": "mod",
+        "label": "PhoenixRace",
+        "author": "作者：PhoenixRace 团队",
+        "packageId": "chezhou.Race.PhoenixRace",
+        "defName": "PhoenixRace",
+        "texturePath": "AlienRace/Phoenix/body/Naked_Female",
+        "definitionFile": "1.6/Defs/AlienRace/PhoenixRace.xml",
+        "evidence": "核对本地 Mod XML 路径、PNG Alpha 和完整方向组；原图复制保留。"
+      },
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true,
+      "alphaBounds": [
+        393,
+        297,
+        594,
+        822
+      ],
+      "transparentFraction": 0.9512,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#f0d0d0",
+        "#f0b0b0",
+        "#301010",
+        "#f0d0b0"
+      ],
+      "sha256": "47c03fc753d154bf9aa6d09dd20bbde61aad2aa74bbf02c47fada310a9a6cb60"
+    },
+    {
+      "id": "local.phoenix-head.south",
+      "groupId": "local.phoenix-head",
+      "name": "凤凰族头部",
+      "aliases": [
+        "凤凰族头部",
+        "PhoenixRace",
+        "凤凰族",
+        "Head"
+      ],
+      "tags": [
+        "二次元",
+        "种族",
+        "head",
+        "完整方向组"
+      ],
+      "category": "head",
+      "role": "component",
+      "styleFamily": "anime",
+      "race": "PhoenixRace",
+      "bodyType": null,
+      "direction": "south",
+      "file": "images/phoenix-head/south.png",
+      "notes": "HAR 头部附加层，源图已含五官；不是 Facial Animation 空白头模板。",
+      "styleNotes": [
+        "优先保持本种族模板比例、原始画布及部件对齐。",
+        "轮廓和柔和明暗参考本组，不统一改为原版小人体型。"
+      ],
+      "outlineNotes": "按本组原图的轮廓宽度和颜色处理；已有粗线时不再叠加。",
+      "source": {
+        "kind": "mod",
+        "label": "PhoenixRace",
+        "author": "作者：PhoenixRace 团队",
+        "packageId": "chezhou.Race.PhoenixRace",
+        "defName": "PhoenixRace",
+        "texturePath": "AlienRace/Phoenix/head/Head",
+        "definitionFile": "1.6/Defs/AlienRace/PhoenixRace.xml",
+        "evidence": "核对本地 Mod XML 路径、PNG Alpha 和完整方向组；原图复制保留。"
+      },
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true,
+      "alphaBounds": [
+        422,
+        305,
+        602,
+        539
+      ],
+      "transparentFraction": 0.9678,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#f0d0b0",
+        "#f0d0d0",
+        "#301010",
+        "#f0f0d0"
+      ],
+      "sha256": "93499513ac4f07a5123839afaac9e35cd1f02ae7989149e6818b70a44c8a186c"
+    },
+    {
+      "id": "local.phoenix-head.north",
+      "groupId": "local.phoenix-head",
+      "name": "凤凰族头部",
+      "aliases": [
+        "凤凰族头部",
+        "PhoenixRace",
+        "凤凰族",
+        "Head"
+      ],
+      "tags": [
+        "二次元",
+        "种族",
+        "head",
+        "完整方向组"
+      ],
+      "category": "head",
+      "role": "component",
+      "styleFamily": "anime",
+      "race": "PhoenixRace",
+      "bodyType": null,
+      "direction": "north",
+      "file": "images/phoenix-head/north.png",
+      "notes": "HAR 头部附加层，源图已含五官；不是 Facial Animation 空白头模板。",
+      "styleNotes": [
+        "优先保持本种族模板比例、原始画布及部件对齐。",
+        "轮廓和柔和明暗参考本组，不统一改为原版小人体型。"
+      ],
+      "outlineNotes": "按本组原图的轮廓宽度和颜色处理；已有粗线时不再叠加。",
+      "source": {
+        "kind": "mod",
+        "label": "PhoenixRace",
+        "author": "作者：PhoenixRace 团队",
+        "packageId": "chezhou.Race.PhoenixRace",
+        "defName": "PhoenixRace",
+        "texturePath": "AlienRace/Phoenix/head/Head",
+        "definitionFile": "1.6/Defs/AlienRace/PhoenixRace.xml",
+        "evidence": "核对本地 Mod XML 路径、PNG Alpha 和完整方向组；原图复制保留。"
+      },
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true,
+      "alphaBounds": [
+        416,
+        311,
+        604,
+        531
+      ],
+      "transparentFraction": 0.9679,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#f0d0b0",
+        "#f0d0d0",
+        "#301010",
+        "#f0f0d0"
+      ],
+      "sha256": "22bec3be6bc06c6304d11644f31ad30a46ed6a106f43c2e4fb205698109bee45"
+    },
+    {
+      "id": "local.phoenix-head.east",
+      "groupId": "local.phoenix-head",
+      "name": "凤凰族头部",
+      "aliases": [
+        "凤凰族头部",
+        "PhoenixRace",
+        "凤凰族",
+        "Head"
+      ],
+      "tags": [
+        "二次元",
+        "种族",
+        "head",
+        "完整方向组"
+      ],
+      "category": "head",
+      "role": "component",
+      "styleFamily": "anime",
+      "race": "PhoenixRace",
+      "bodyType": null,
+      "direction": "east",
+      "file": "images/phoenix-head/east.png",
+      "notes": "HAR 头部附加层，源图已含五官；不是 Facial Animation 空白头模板。",
+      "styleNotes": [
+        "优先保持本种族模板比例、原始画布及部件对齐。",
+        "轮廓和柔和明暗参考本组，不统一改为原版小人体型。"
+      ],
+      "outlineNotes": "按本组原图的轮廓宽度和颜色处理；已有粗线时不再叠加。",
+      "source": {
+        "kind": "mod",
+        "label": "PhoenixRace",
+        "author": "作者：PhoenixRace 团队",
+        "packageId": "chezhou.Race.PhoenixRace",
+        "defName": "PhoenixRace",
+        "texturePath": "AlienRace/Phoenix/head/Head",
+        "definitionFile": "1.6/Defs/AlienRace/PhoenixRace.xml",
+        "evidence": "核对本地 Mod XML 路径、PNG Alpha 和完整方向组；原图复制保留。"
+      },
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true,
+      "alphaBounds": [
+        433,
+        297,
+        647,
+        526
+      ],
+      "transparentFraction": 0.9636,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#f0d0d0",
+        "#f0d0b0",
+        "#301010",
+        "#f0f0d0"
+      ],
+      "sha256": "c00ffe85387242851d87ddbb3c4e0d0bee2f3464c72ce558af33d2a0b3892f68"
+    },
+    {
+      "id": "local.phoenix-hair.south",
+      "groupId": "local.phoenix-hair",
+      "name": "凤凰族辫子长发",
+      "aliases": [
+        "凤凰族辫子长发",
+        "PhoenixRace",
+        "凤凰族",
+        "HairA"
+      ],
+      "tags": [
+        "二次元",
+        "种族",
+        "hair",
+        "完整方向组"
+      ],
+      "category": "hair",
+      "role": "component",
+      "styleFamily": "anime",
+      "race": "PhoenixRace",
+      "bodyType": null,
+      "direction": "south",
+      "file": "images/phoenix-hair/south.png",
+      "notes": "HAR 头发附加层；具有独立 west，不用 east 镜像代替。",
+      "styleNotes": [
+        "优先保持本种族模板比例、原始画布及部件对齐。",
+        "轮廓和柔和明暗参考本组，不统一改为原版小人体型。"
+      ],
+      "outlineNotes": "按本组原图的轮廓宽度和颜色处理；已有粗线时不再叠加。",
+      "source": {
+        "kind": "mod",
+        "label": "PhoenixRace",
+        "author": "作者：PhoenixRace 团队",
+        "packageId": "chezhou.Race.PhoenixRace",
+        "defName": "PhoenixRace",
+        "texturePath": "AlienRace/Phoenix/hair/HairA",
+        "definitionFile": "1.6/Defs/AlienRace/PhoenixRace.xml",
+        "evidence": "核对本地 Mod XML 路径、PNG Alpha 和完整方向组；原图复制保留。"
+      },
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true,
+      "alphaBounds": [
+        357,
+        238,
+        667,
+        785
+      ],
+      "transparentFraction": 0.919,
+      "paletteSamples": [
+        "#301010",
+        "#f0d0d0",
+        "#d0d0d0",
+        "#b0b0b0",
+        "#707070"
+      ],
+      "sha256": "dcbef4412574c55d5331fae42961f0a412a8a839b75e5f06d44cb96c2277268a"
+    },
+    {
+      "id": "local.phoenix-hair.north",
+      "groupId": "local.phoenix-hair",
+      "name": "凤凰族辫子长发",
+      "aliases": [
+        "凤凰族辫子长发",
+        "PhoenixRace",
+        "凤凰族",
+        "HairA"
+      ],
+      "tags": [
+        "二次元",
+        "种族",
+        "hair",
+        "完整方向组"
+      ],
+      "category": "hair",
+      "role": "component",
+      "styleFamily": "anime",
+      "race": "PhoenixRace",
+      "bodyType": null,
+      "direction": "north",
+      "file": "images/phoenix-hair/north.png",
+      "notes": "HAR 头发附加层；具有独立 west，不用 east 镜像代替。",
+      "styleNotes": [
+        "优先保持本种族模板比例、原始画布及部件对齐。",
+        "轮廓和柔和明暗参考本组，不统一改为原版小人体型。"
+      ],
+      "outlineNotes": "按本组原图的轮廓宽度和颜色处理；已有粗线时不再叠加。",
+      "source": {
+        "kind": "mod",
+        "label": "PhoenixRace",
+        "author": "作者：PhoenixRace 团队",
+        "packageId": "chezhou.Race.PhoenixRace",
+        "defName": "PhoenixRace",
+        "texturePath": "AlienRace/Phoenix/hair/HairA",
+        "definitionFile": "1.6/Defs/AlienRace/PhoenixRace.xml",
+        "evidence": "核对本地 Mod XML 路径、PNG Alpha 和完整方向组；原图复制保留。"
+      },
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true,
+      "alphaBounds": [
+        362,
+        248,
+        662,
+        776
+      ],
+      "transparentFraction": 0.8874,
+      "paletteSamples": [
+        "#d0d0d0",
+        "#301010",
+        "#b0b0b0",
+        "#907070",
+        "#d0b0b0"
+      ],
+      "sha256": "26eb8c0ab25504713e153f003159b7e66d4a14accb6b706b0e85b56d586a2d18"
+    },
+    {
+      "id": "local.phoenix-hair.east",
+      "groupId": "local.phoenix-hair",
+      "name": "凤凰族辫子长发",
+      "aliases": [
+        "凤凰族辫子长发",
+        "PhoenixRace",
+        "凤凰族",
+        "HairA"
+      ],
+      "tags": [
+        "二次元",
+        "种族",
+        "hair",
+        "完整方向组"
+      ],
+      "category": "hair",
+      "role": "component",
+      "styleFamily": "anime",
+      "race": "PhoenixRace",
+      "bodyType": null,
+      "direction": "east",
+      "file": "images/phoenix-hair/east.png",
+      "notes": "HAR 头发附加层；具有独立 west，不用 east 镜像代替。",
+      "styleNotes": [
+        "优先保持本种族模板比例、原始画布及部件对齐。",
+        "轮廓和柔和明暗参考本组，不统一改为原版小人体型。"
+      ],
+      "outlineNotes": "按本组原图的轮廓宽度和颜色处理；已有粗线时不再叠加。",
+      "source": {
+        "kind": "mod",
+        "label": "PhoenixRace",
+        "author": "作者：PhoenixRace 团队",
+        "packageId": "chezhou.Race.PhoenixRace",
+        "defName": "PhoenixRace",
+        "texturePath": "AlienRace/Phoenix/hair/HairA",
+        "definitionFile": "1.6/Defs/AlienRace/PhoenixRace.xml",
+        "evidence": "核对本地 Mod XML 路径、PNG Alpha 和完整方向组；原图复制保留。"
+      },
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true,
+      "alphaBounds": [
+        275,
+        236,
+        669,
+        802
+      ],
+      "transparentFraction": 0.8987,
+      "paletteSamples": [
+        "#d0d0d0",
+        "#301010",
+        "#b0b0b0",
+        "#907070",
+        "#707070"
+      ],
+      "sha256": "cca7c5401677438d2ccf39e9d4e47ea5d82fd7024d4ce7233ce80e22f44bd0f5"
+    },
+    {
+      "id": "local.phoenix-hair.west",
+      "groupId": "local.phoenix-hair",
+      "name": "凤凰族辫子长发",
+      "aliases": [
+        "凤凰族辫子长发",
+        "PhoenixRace",
+        "凤凰族",
+        "HairA"
+      ],
+      "tags": [
+        "二次元",
+        "种族",
+        "hair",
+        "完整方向组"
+      ],
+      "category": "hair",
+      "role": "component",
+      "styleFamily": "anime",
+      "race": "PhoenixRace",
+      "bodyType": null,
+      "direction": "west",
+      "file": "images/phoenix-hair/west.png",
+      "notes": "HAR 头发附加层；具有独立 west，不用 east 镜像代替。",
+      "styleNotes": [
+        "优先保持本种族模板比例、原始画布及部件对齐。",
+        "轮廓和柔和明暗参考本组，不统一改为原版小人体型。"
+      ],
+      "outlineNotes": "按本组原图的轮廓宽度和颜色处理；已有粗线时不再叠加。",
+      "source": {
+        "kind": "mod",
+        "label": "PhoenixRace",
+        "author": "作者：PhoenixRace 团队",
+        "packageId": "chezhou.Race.PhoenixRace",
+        "defName": "PhoenixRace",
+        "texturePath": "AlienRace/Phoenix/hair/HairA",
+        "definitionFile": "1.6/Defs/AlienRace/PhoenixRace.xml",
+        "evidence": "核对本地 Mod XML 路径、PNG Alpha 和完整方向组；原图复制保留。"
+      },
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true,
+      "alphaBounds": [
+        275,
+        236,
+        667,
+        802
+      ],
+      "transparentFraction": 0.8971,
+      "paletteSamples": [
+        "#301010",
+        "#d0d0d0",
+        "#b0b0b0",
+        "#707070",
+        "#907070"
+      ],
+      "sha256": "5ad5c4371ad5558a6276e02d043472c717ac5b6cab453674cf36b98eb1b7cdfa"
+    },
+    {
+      "id": "local.ag-kagari-body.south",
+      "groupId": "local.ag-kagari-body",
+      "name": "机动战姬篝身体",
+      "aliases": [
+        "机动战姬篝身体",
+        "AgRace",
+        "机动战姬",
+        "body"
+      ],
+      "tags": [
+        "二次元",
+        "种族",
+        "body",
+        "完整方向组"
+      ],
+      "category": "body",
+      "role": "template",
+      "styleFamily": "anime",
+      "race": "AgRace",
+      "bodyType": "Female",
+      "direction": "south",
+      "file": "images/ag-kagari-body/south.png",
+      "notes": "篝的身体渲染层，不能与缘的 bodyyuan 模板混用。",
+      "styleNotes": [
+        "优先保持本种族模板比例、原始画布及部件对齐。",
+        "轮廓和柔和明暗参考本组，不统一改为原版小人体型。"
+      ],
+      "outlineNotes": "按本组原图的轮廓宽度和颜色处理；已有粗线时不再叠加。",
+      "source": {
+        "kind": "mod",
+        "label": "机动战姬",
+        "author": "主创：Myourar，贴图：冰皮汤圆，XML和dll：追踪虫",
+        "packageId": "chezhou.Race.AgRace",
+        "defName": "Ag",
+        "texturePath": "AlienRace/Ag/body/body",
+        "definitionFile": "1.6/Defs/AlienRace/AgRace.xml",
+        "evidence": "核对本地 Mod XML 路径、PNG Alpha 和完整方向组；原图复制保留。"
+      },
+      "width": 512,
+      "height": 512,
+      "hasAlpha": true,
+      "alphaBounds": [
+        211,
+        183,
+        301,
+        435
+      ],
+      "transparentFraction": 0.9431,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#f0d0d0",
+        "#f0f0d0",
+        "#101010",
+        "#f0d0b0"
+      ],
+      "sha256": "f803108f331b4566d52c132c1099a51aa74c11ab9f5d643d3576ae2c366dab29"
+    },
+    {
+      "id": "local.ag-kagari-body.north",
+      "groupId": "local.ag-kagari-body",
+      "name": "机动战姬篝身体",
+      "aliases": [
+        "机动战姬篝身体",
+        "AgRace",
+        "机动战姬",
+        "body"
+      ],
+      "tags": [
+        "二次元",
+        "种族",
+        "body",
+        "完整方向组"
+      ],
+      "category": "body",
+      "role": "template",
+      "styleFamily": "anime",
+      "race": "AgRace",
+      "bodyType": "Female",
+      "direction": "north",
+      "file": "images/ag-kagari-body/north.png",
+      "notes": "篝的身体渲染层，不能与缘的 bodyyuan 模板混用。",
+      "styleNotes": [
+        "优先保持本种族模板比例、原始画布及部件对齐。",
+        "轮廓和柔和明暗参考本组，不统一改为原版小人体型。"
+      ],
+      "outlineNotes": "按本组原图的轮廓宽度和颜色处理；已有粗线时不再叠加。",
+      "source": {
+        "kind": "mod",
+        "label": "机动战姬",
+        "author": "主创：Myourar，贴图：冰皮汤圆，XML和dll：追踪虫",
+        "packageId": "chezhou.Race.AgRace",
+        "defName": "Ag",
+        "texturePath": "AlienRace/Ag/body/body",
+        "definitionFile": "1.6/Defs/AlienRace/AgRace.xml",
+        "evidence": "核对本地 Mod XML 路径、PNG Alpha 和完整方向组；原图复制保留。"
+      },
+      "width": 512,
+      "height": 512,
+      "hasAlpha": true,
+      "alphaBounds": [
+        212,
+        183,
+        300,
+        435
+      ],
+      "transparentFraction": 0.9431,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#f0d0d0",
+        "#f0f0d0",
+        "#101010",
+        "#f0d0b0"
+      ],
+      "sha256": "9157f9cfff5dc011226ff6217f67068d0657575738d2d540ca461c1d48b674a7"
+    },
+    {
+      "id": "local.ag-kagari-body.east",
+      "groupId": "local.ag-kagari-body",
+      "name": "机动战姬篝身体",
+      "aliases": [
+        "机动战姬篝身体",
+        "AgRace",
+        "机动战姬",
+        "body"
+      ],
+      "tags": [
+        "二次元",
+        "种族",
+        "body",
+        "完整方向组"
+      ],
+      "category": "body",
+      "role": "template",
+      "styleFamily": "anime",
+      "race": "AgRace",
+      "bodyType": "Female",
+      "direction": "east",
+      "file": "images/ag-kagari-body/east.png",
+      "notes": "篝的身体渲染层，不能与缘的 bodyyuan 模板混用。",
+      "styleNotes": [
+        "优先保持本种族模板比例、原始画布及部件对齐。",
+        "轮廓和柔和明暗参考本组，不统一改为原版小人体型。"
+      ],
+      "outlineNotes": "按本组原图的轮廓宽度和颜色处理；已有粗线时不再叠加。",
+      "source": {
+        "kind": "mod",
+        "label": "机动战姬",
+        "author": "主创：Myourar，贴图：冰皮汤圆，XML和dll：追踪虫",
+        "packageId": "chezhou.Race.AgRace",
+        "defName": "Ag",
+        "texturePath": "AlienRace/Ag/body/body",
+        "definitionFile": "1.6/Defs/AlienRace/AgRace.xml",
+        "evidence": "核对本地 Mod XML 路径、PNG Alpha 和完整方向组；原图复制保留。"
+      },
+      "width": 512,
+      "height": 512,
+      "hasAlpha": true,
+      "alphaBounds": [
+        200,
+        184,
+        303,
+        443
+      ],
+      "transparentFraction": 0.9478,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#101010",
+        "#f0d0d0",
+        "#f0d0b0",
+        "#f0f0d0"
+      ],
+      "sha256": "1e7f68b487792db7cac7c16b09efa74d36f839f5662d69c421f2cd5e6cbe6f32"
+    },
+    {
+      "id": "local.ag-kagari-head.south",
+      "groupId": "local.ag-kagari-head",
+      "name": "机动战姬篝头部",
+      "aliases": [
+        "机动战姬篝头部",
+        "AgRace",
+        "机动战姬",
+        "head"
+      ],
+      "tags": [
+        "二次元",
+        "种族",
+        "head",
+        "完整方向组"
+      ],
+      "category": "head",
+      "role": "component",
+      "styleFamily": "anime",
+      "race": "AgRace",
+      "bodyType": null,
+      "direction": "south",
+      "file": "images/ag-kagari-head/south.png",
+      "notes": "头部 BodyAddon；缺少的五官由其他层提供，不能当成完整头像。",
+      "styleNotes": [
+        "优先保持本种族模板比例、原始画布及部件对齐。",
+        "轮廓和柔和明暗参考本组，不统一改为原版小人体型。"
+      ],
+      "outlineNotes": "按本组原图的轮廓宽度和颜色处理；已有粗线时不再叠加。",
+      "source": {
+        "kind": "mod",
+        "label": "机动战姬",
+        "author": "主创：Myourar，贴图：冰皮汤圆，XML和dll：追踪虫",
+        "packageId": "chezhou.Race.AgRace",
+        "defName": "Ag",
+        "texturePath": "AlienRace/Ag/head/head",
+        "definitionFile": "1.6/Defs/AlienRace/AgRace.xml",
+        "evidence": "核对本地 Mod XML 路径、PNG Alpha 和完整方向组；原图复制保留。"
+      },
+      "width": 512,
+      "height": 512,
+      "hasAlpha": true,
+      "alphaBounds": [
+        180,
+        155,
+        332,
+        348
+      ],
+      "transparentFraction": 0.9135,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#101010",
+        "#f0d0b0",
+        "#f0d0d0",
+        "#f0f0d0"
+      ],
+      "sha256": "52ec3b702b34dd1cf9e8d9ee6916785a206cf0f028872684fc38c098b99281be"
+    },
+    {
+      "id": "local.ag-kagari-head.north",
+      "groupId": "local.ag-kagari-head",
+      "name": "机动战姬篝头部",
+      "aliases": [
+        "机动战姬篝头部",
+        "AgRace",
+        "机动战姬",
+        "head"
+      ],
+      "tags": [
+        "二次元",
+        "种族",
+        "head",
+        "完整方向组"
+      ],
+      "category": "head",
+      "role": "component",
+      "styleFamily": "anime",
+      "race": "AgRace",
+      "bodyType": null,
+      "direction": "north",
+      "file": "images/ag-kagari-head/north.png",
+      "notes": "头部 BodyAddon；缺少的五官由其他层提供，不能当成完整头像。",
+      "styleNotes": [
+        "优先保持本种族模板比例、原始画布及部件对齐。",
+        "轮廓和柔和明暗参考本组，不统一改为原版小人体型。"
+      ],
+      "outlineNotes": "按本组原图的轮廓宽度和颜色处理；已有粗线时不再叠加。",
+      "source": {
+        "kind": "mod",
+        "label": "机动战姬",
+        "author": "主创：Myourar，贴图：冰皮汤圆，XML和dll：追踪虫",
+        "packageId": "chezhou.Race.AgRace",
+        "defName": "Ag",
+        "texturePath": "AlienRace/Ag/head/head",
+        "definitionFile": "1.6/Defs/AlienRace/AgRace.xml",
+        "evidence": "核对本地 Mod XML 路径、PNG Alpha 和完整方向组；原图复制保留。"
+      },
+      "width": 512,
+      "height": 512,
+      "hasAlpha": true,
+      "alphaBounds": [
+        180,
+        155,
+        332,
+        348
+      ],
+      "transparentFraction": 0.9135,
+      "paletteSamples": [
+        "#f0d0d0",
+        "#f0f0f0",
+        "#101010",
+        "#f0d0b0",
+        "#f0f0d0"
+      ],
+      "sha256": "d3a8da2808fd4216c8ec140ee8505867a4b1e22ed70be1c5c73bc763103723a4"
+    },
+    {
+      "id": "local.ag-kagari-head.east",
+      "groupId": "local.ag-kagari-head",
+      "name": "机动战姬篝头部",
+      "aliases": [
+        "机动战姬篝头部",
+        "AgRace",
+        "机动战姬",
+        "head"
+      ],
+      "tags": [
+        "二次元",
+        "种族",
+        "head",
+        "完整方向组"
+      ],
+      "category": "head",
+      "role": "component",
+      "styleFamily": "anime",
+      "race": "AgRace",
+      "bodyType": null,
+      "direction": "east",
+      "file": "images/ag-kagari-head/east.png",
+      "notes": "头部 BodyAddon；缺少的五官由其他层提供，不能当成完整头像。",
+      "styleNotes": [
+        "优先保持本种族模板比例、原始画布及部件对齐。",
+        "轮廓和柔和明暗参考本组，不统一改为原版小人体型。"
+      ],
+      "outlineNotes": "按本组原图的轮廓宽度和颜色处理；已有粗线时不再叠加。",
+      "source": {
+        "kind": "mod",
+        "label": "机动战姬",
+        "author": "主创：Myourar，贴图：冰皮汤圆，XML和dll：追踪虫",
+        "packageId": "chezhou.Race.AgRace",
+        "defName": "Ag",
+        "texturePath": "AlienRace/Ag/head/head",
+        "definitionFile": "1.6/Defs/AlienRace/AgRace.xml",
+        "evidence": "核对本地 Mod XML 路径、PNG Alpha 和完整方向组；原图复制保留。"
+      },
+      "width": 512,
+      "height": 512,
+      "hasAlpha": true,
+      "alphaBounds": [
+        174,
+        163,
+        338,
+        348
+      ],
+      "transparentFraction": 0.914,
+      "paletteSamples": [
+        "#f0f0f0",
+        "#101010",
+        "#f0d0d0",
+        "#f0d0b0",
+        "#f0f0d0"
+      ],
+      "sha256": "0815b3e10b90ee12f78b5beec087459b830d933df6d5daad0261c08ca74be639"
+    },
+    {
+      "id": "local.ag-kagari-hair.south",
+      "groupId": "local.ag-kagari-hair",
+      "name": "机动战姬篝前发",
+      "aliases": [
+        "机动战姬篝前发",
+        "AgRace",
+        "机动战姬",
+        "hair"
+      ],
+      "tags": [
+        "二次元",
+        "种族",
+        "hair",
+        "完整方向组"
+      ],
+      "category": "hair",
+      "role": "component",
+      "styleFamily": "anime",
+      "race": "AgRace",
+      "bodyType": null,
+      "direction": "south",
+      "file": "images/ag-kagari-hair/south.png",
+      "notes": "前发 BodyAddon；后发 hairback 是独立层。1536 画布的大量留白与对齐有关，禁止自动裁切居中。",
+      "styleNotes": [
+        "优先保持本种族模板比例、原始画布及部件对齐。",
+        "轮廓和柔和明暗参考本组，不统一改为原版小人体型。"
+      ],
+      "outlineNotes": "按本组原图的轮廓宽度和颜色处理；已有粗线时不再叠加。",
+      "source": {
+        "kind": "mod",
+        "label": "机动战姬",
+        "author": "主创：Myourar，贴图：冰皮汤圆，XML和dll：追踪虫",
+        "packageId": "chezhou.Race.AgRace",
+        "defName": "Ag",
+        "texturePath": "AlienRace/Ag/hair/hair",
+        "definitionFile": "1.6/Defs/AlienRace/AgRace.xml",
+        "evidence": "核对本地 Mod XML 路径、PNG Alpha 和完整方向组；原图复制保留。"
+      },
+      "width": 1536,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaBounds": [
+        656,
+        654,
+        880,
+        909
+      ],
+      "transparentFraction": 0.9861,
+      "paletteSamples": [
+        "#f0d0b0",
+        "#101010",
+        "#f0f0d0",
+        "#d0b090",
+        "#d09090"
+      ],
+      "sha256": "ab1f4805cd0a4a86c0950576421a970ac2f134a3123da2d0ab3ecf94d3051835"
+    },
+    {
+      "id": "local.ag-kagari-hair.north",
+      "groupId": "local.ag-kagari-hair",
+      "name": "机动战姬篝前发",
+      "aliases": [
+        "机动战姬篝前发",
+        "AgRace",
+        "机动战姬",
+        "hair"
+      ],
+      "tags": [
+        "二次元",
+        "种族",
+        "hair",
+        "完整方向组"
+      ],
+      "category": "hair",
+      "role": "component",
+      "styleFamily": "anime",
+      "race": "AgRace",
+      "bodyType": null,
+      "direction": "north",
+      "file": "images/ag-kagari-hair/north.png",
+      "notes": "前发 BodyAddon；后发 hairback 是独立层。1536 画布的大量留白与对齐有关，禁止自动裁切居中。",
+      "styleNotes": [
+        "优先保持本种族模板比例、原始画布及部件对齐。",
+        "轮廓和柔和明暗参考本组，不统一改为原版小人体型。"
+      ],
+      "outlineNotes": "按本组原图的轮廓宽度和颜色处理；已有粗线时不再叠加。",
+      "source": {
+        "kind": "mod",
+        "label": "机动战姬",
+        "author": "主创：Myourar，贴图：冰皮汤圆，XML和dll：追踪虫",
+        "packageId": "chezhou.Race.AgRace",
+        "defName": "Ag",
+        "texturePath": "AlienRace/Ag/hair/hair",
+        "definitionFile": "1.6/Defs/AlienRace/AgRace.xml",
+        "evidence": "核对本地 Mod XML 路径、PNG Alpha 和完整方向组；原图复制保留。"
+      },
+      "width": 1536,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaBounds": [
+        597,
+        654,
+        939,
+        1130
+      ],
+      "transparentFraction": 0.9551,
+      "paletteSamples": [
+        "#f0d0b0",
+        "#f0f0d0",
+        "#d09090",
+        "#101010",
+        "#f0d0d0"
+      ],
+      "sha256": "99f676c9c11a591b32509486c186873b545754c936a6f08deced9b6de856e46c"
+    },
+    {
+      "id": "local.ag-kagari-hair.east",
+      "groupId": "local.ag-kagari-hair",
+      "name": "机动战姬篝前发",
+      "aliases": [
+        "机动战姬篝前发",
+        "AgRace",
+        "机动战姬",
+        "hair"
+      ],
+      "tags": [
+        "二次元",
+        "种族",
+        "hair",
+        "完整方向组"
+      ],
+      "category": "hair",
+      "role": "component",
+      "styleFamily": "anime",
+      "race": "AgRace",
+      "bodyType": null,
+      "direction": "east",
+      "file": "images/ag-kagari-hair/east.png",
+      "notes": "前发 BodyAddon；后发 hairback 是独立层。1536 画布的大量留白与对齐有关，禁止自动裁切居中。",
+      "styleNotes": [
+        "优先保持本种族模板比例、原始画布及部件对齐。",
+        "轮廓和柔和明暗参考本组，不统一改为原版小人体型。"
+      ],
+      "outlineNotes": "按本组原图的轮廓宽度和颜色处理；已有粗线时不再叠加。",
+      "source": {
+        "kind": "mod",
+        "label": "机动战姬",
+        "author": "主创：Myourar，贴图：冰皮汤圆，XML和dll：追踪虫",
+        "packageId": "chezhou.Race.AgRace",
+        "defName": "Ag",
+        "texturePath": "AlienRace/Ag/hair/hair",
+        "definitionFile": "1.6/Defs/AlienRace/AgRace.xml",
+        "evidence": "核对本地 Mod XML 路径、PNG Alpha 和完整方向组；原图复制保留。"
+      },
+      "width": 1536,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaBounds": [
+        539,
+        657,
+        882,
+        1140
+      ],
+      "transparentFraction": 0.9697,
+      "paletteSamples": [
+        "#f0d0b0",
+        "#f0f0d0",
+        "#101010",
+        "#d09090",
+        "#d0b090"
+      ],
+      "sha256": "af515d389d46167820c9aa2a92c05c10986df5be65fece030c37d6cf4c6d1041"
+    },
+    {
+      "id": "local.sample-repair-command.single",
+      "groupId": "local.sample-repair-command",
+      "name": "生成样例：交叉维修工具图标",
+      "aliases": [
+        "维修命令图标",
+        "维修按钮",
+        "维修指令",
+        "repair command",
+        "repair icon"
+      ],
+      "tags": [
+        "生成示例",
+        "扳手",
+        "锤子",
+        "命令符号"
+      ],
+      "category": "ui",
+      "role": "ui",
+      "styleFamily": "custom",
+      "race": null,
+      "bodyType": null,
+      "direction": null,
+      "variant": null,
+      "file": "images/sample-repair-command/single.png",
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true,
+      "alphaBounds": [
+        11,
+        15,
+        120,
+        115
+      ],
+      "transparentFraction": 0.6556396484375,
+      "paletteSamples": [
+        "#b0b0b0",
+        "#505050",
+        "#303030",
+        "#b0b090",
+        "#505030"
+      ],
+      "sha256": "4226cb7c40e3755aecc2a302c7376f851392a55aeb8b94533289ef2f5c0a2ea2",
+      "source": {
+        "label": "Codex 内置生图，2026-10-12 九类贴图试用",
+        "kind": "generated",
+        "evidence": "以 ui.draft 为风格参考生成新的扳手与锤子交叉符号；经 process_texture 缩为 128×128，再由 inspect_texture 核对 Alpha 和边缘；已人工查看缩略图。",
+        "rightsNote": "AI 生成的自定义示例，不标记为原版或官方资源。"
+      },
+      "notes": "独立透明维修命令符号，无按钮底板；用于 UI 符号化风格参考，不用于地图实体。已查看 128 与 64 像素预览；这是生成的自定义素材，不是原版贴图。",
+      "styleNotes": [
+        "浅灰工具与深灰粗轮廓；两级灰阶，缩小后剪影明确。"
+      ],
+      "outlineNotes": "现有外轮廓已经足够粗，默认额外描边为 0。",
+      "createdAt": "2026-10-12T10:27:24.308Z",
+      "updatedAt": "2026-10-12T10:27:24.323Z"
+    }
+  ]
+}
